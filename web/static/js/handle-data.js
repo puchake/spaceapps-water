@@ -1,39 +1,3 @@
-const monthLabel = function (month) {
-    if (month === 0) {
-        return 'today';
-    } else if (month === 1) {
-        return '1 month'
-    } else {
-        return `${month} months`;
-    }
-};
-
-const createData = function (population) {
-    let datapoints = [];
-    let labels = [];
-
-    let index = 0;
-    let lastPopulation = population;
-    let penultimatePoint = population;
-
-    do {
-        penultimatePoint = lastPopulation;
-        datapoints.push(lastPopulation);
-
-        lastPopulation *= 0.5;
-        lastPopulation -= 100000;
-        lastPopulation = Math.max(lastPopulation, 0);
-
-        labels.push(monthLabel(index));
-        index++;
-    } while (penultimatePoint > 0 && datapoints.length < 15);
-
-    return {
-        'labels': labels,
-        'data': datapoints
-    }
-};
-
 function loadPopulation() {
     $.getJSON('static/data/population.json', function(data) {
         window.populationJson = data;
@@ -48,7 +12,9 @@ function setPopulationData(countryName) {
 
     let startYear = 2000;
     let labels = Array.from(
-        {length: datapoints.length}, (v, k) => startYear + k);
+        {
+            length: datapoints.length
+        }, (v, k) => startYear + k);
 
     window.graphData = {
         'labels': labels,
@@ -58,6 +24,8 @@ function setPopulationData(countryName) {
     updateChart();
 }
 
+const defaultCountry = 'Ghana';
+
 function populateCountrySelect() {
     let select = document.getElementById('countrySelect');
 
@@ -65,8 +33,15 @@ function populateCountrySelect() {
         const option = document.createElement('option');
         option.value = element;
         option.innerHTML = element;
+
+        if (element === defaultCountry) {
+            option.selected = true;
+        }
+
         select.appendChild(option);
     }
+
+    setPopulationData(defaultCountry);
 }
 
 const createNewElement = function () {
@@ -96,5 +71,8 @@ const init = function () {
     loadPopulation();
 };
 
-window.graphData = createData(500000000);
+window.graphData = {
+    'data': [],
+    'labels': []
+};
 window.onload = init;
