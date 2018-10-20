@@ -49,11 +49,11 @@ let config = {
             }]
         }
     }
-}
+};
 
 let chart = new Chart(ctx, config);
 
-var updateChart = function() {
+function updateChart() {
     config.data.datasets[0].data = window.graphData.data;
     config.data.labels = window.graphData.labels;
     chart.update();

@@ -34,15 +34,15 @@ const createData = function (population) {
     }
 };
 
-var loadPopulation = function() {
+function loadPopulation() {
     $.getJSON('static/data/population.json', function(data) {
         window.populationJson = data;
         console.log("Population json loaded.");
         populateCountrySelect();
     });
-};
+}
 
-var setPopulationData = function(countryName) {
+function setPopulationData(countryName) {
     console.log("Setting population data to population of " + countryName);
     let datapoints = window.populationJson[countryName];
 
@@ -56,17 +56,18 @@ var setPopulationData = function(countryName) {
     };
 
     updateChart();
-};
+}
 
-var populateCountrySelect = function() {
-    select = document.getElementById('countrySelect');
-    for(element in window.populationJson) {
-       var option = document.createElement('option');
-       option.value = element;
-       option.innerHTML = element;
-       select.appendChild(option);
+function populateCountrySelect() {
+    let select = document.getElementById('countrySelect');
+
+    for(let element in window.populationJson) {
+        const option = document.createElement('option');
+        option.value = element;
+        option.innerHTML = element;
+        select.appendChild(option);
     }
-};
+}
 
 const createNewElement = function () {
     const variableTypeSelect = document.querySelector('#variable-type');
