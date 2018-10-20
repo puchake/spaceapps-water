@@ -34,6 +34,40 @@ const createData = function (population) {
     }
 };
 
+var loadPopulation = function() {
+    $.getJSON('static/data/population.json', function(data) {
+        window.populationJson = data;
+        console.log("Population json loaded.");
+        populateCountrySelect();
+    });
+};
+
+var setPopulationData = function(countryName) {
+    console.log("Setting population data to population of " + countryName);
+    let datapoints = window.populationJson[countryName];
+
+    let startYear = 2000;
+    let labels = Array.from(
+        {length: datapoints.length}, (v, k) => startYear + k);
+
+    window.graphData = {
+        'labels': labels,
+        'data': datapoints
+    };
+
+    updateChart();
+};
+
+var populateCountrySelect = function() {
+    select = document.getElementById('countrySelect');
+    for(element in window.populationJson) {
+       var option = document.createElement('option');
+       option.value = element;
+       option.innerHTML = element;
+       select.appendChild(option);
+    }
+};
+
 const createNewElement = function () {
     const variableTypeSelect = document.querySelector('#variable-type');
     const variableType = variableTypeSelect
@@ -56,5 +90,10 @@ const closeElement = function () {
     parentWindow.remove();
 };
 
+const init = function () {
+    createNewElement();
+    loadPopulation();
+};
+
 window.graphData = createData(500000000);
-window.onload = createNewElement;
+window.onload = init;

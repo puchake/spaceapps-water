@@ -4,7 +4,7 @@ const numberWithCommas = (x) => {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 };
 
-let chart = new Chart(ctx, {
+let config = {
     type: 'line',
     data: {
         labels: window.graphData.labels,
@@ -49,4 +49,12 @@ let chart = new Chart(ctx, {
             }]
         }
     }
-});
+}
+
+let chart = new Chart(ctx, config);
+
+var updateChart = function() {
+    config.data.datasets[0].data = window.graphData.data;
+    config.data.labels = window.graphData.labels;
+    chart.update();
+}
