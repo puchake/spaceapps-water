@@ -8,9 +8,6 @@ const monthLabel = function (month) {
     }
 };
 
-const months = [...Array(20).keys()];
-const monthLabels = months.map(x => monthLabel(x));
-
 const createData = function (population) {
     let datapoints = [];
     let labels = [];
@@ -27,7 +24,7 @@ const createData = function (population) {
         lastPopulation -= 100000;
         lastPopulation = Math.max(lastPopulation, 0);
 
-        labels.push(monthLabels[index]);
+        labels.push(monthLabel(index));
         index++;
     } while (penultimatePoint > 0 && datapoints.length < 15);
 
