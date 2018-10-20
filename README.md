@@ -33,3 +33,11 @@ newly created venv as current project interpreter.
 After activating the venv run:
 
 `(.venv) ... > pip install -r requirements.txt`
+
+### Run example render
+
+Run:
+
+`python path/to/example_render.py --template_path path/to/example_template.html --output_path path/to/example_out.html`
+
+or fill in script params in PyCharm run config for example_render.py
