@@ -1,26 +1,30 @@
 const ctx = document.getElementById('chart').getContext('2d');
 
-const monthLabels = [
-    'today',
-    '1 month',
-    '2 months',
-    '3 months',
-    '4 months',
-    '5 months',
-    '6 months',
-    '7 months',
-    '8 months',
-    '9 months'
-];
+const monthLabel = function (month) {
+    if (month === 0) {
+        return 'today';
+    } else if (month === 1) {
+        return '1 month'
+    } else {
+        return `${month} months`;
+    }
+};
 
-let createData = function(population) {
+const numberWithCommas = (x) => {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+};
+
+const months = [...Array(20).keys()];
+const monthLabels = months.map(x => monthLabel(x));
+
+let createData = function (population) {
     let datapoints = [];
     let labels = [];
 
     let index = 0;
     let lastPopulation = population;
 
-    while (lastPopulation > 0 && datapoints.length < 10) {
+    while (lastPopulation > 0 && datapoints.length < 15) {
         datapoints.push(lastPopulation);
         lastPopulation *= 0.8;
 
@@ -34,7 +38,7 @@ let createData = function(population) {
     }
 };
 
-let data = createData(1000000000);
+let data = createData(500000000);
 
 let chart = new Chart(ctx, {
     type: 'line',
@@ -50,7 +54,13 @@ let chart = new Chart(ctx, {
     options: {
         responsive: true,
         tooltips: {
-            mode: 'index'
+            mode: 'index',
+            callbacks: {
+                label: function (tooltipItem, data) {
+                    // noinspection JSSuspiciousNameCombination
+                    return numberWithCommas(Math.round(tooltipItem.yLabel));
+                }
+            }
         },
         aspectRatio: 3,
         scales: {
@@ -68,8 +78,8 @@ let chart = new Chart(ctx, {
                 },
                 ticks: {
                     suggestedMin: 0,
-                    callback: function(value, index, values) {
-                        return value.toExponential(2);
+                    callback: function (value) {
+                        return value.toExponential(1);
                     }
                 }
             }]
