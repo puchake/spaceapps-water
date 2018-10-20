@@ -4,30 +4,37 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Death clock</title>
+
+    <link rel="stylesheet" type="text/css" href="static/css/bulma.min.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/bulma-slider.min.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/custom.css"/>
+
     <script defer src="static/js/Chart.bundle.min.js"></script>
     <script defer src="static/js/jquery-3.3.1.min.js"></script>
     <script defer src="static/js/font-awesome-5.4.1.js"></script>
-    <script defer src="static/js/chart-data.js"></script>
-    <link rel="stylesheet" type="text/css" href="static/css/bulma.min.css"/>
+    <script defer src="static/js/bulma-slider.min.js"></script>
+
+    <script defer src="static/js/handle-data.js"></script>
+    <script defer src="static/js/plot-data.js"></script>
 </head>
 <body>
 <!-- Header section -->
-<section class="hero is-danger is-bold">
-    <div class="hero-body">
-        <div class="container">
-            <h1 class="title">
-                Death clock
-            </h1>
-            <h2 class="subtitle">
-                When will you die?
-            </h2>
+<nav class="navbar is-danger" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
+            <span class="icon is-medium">
+                <i class="fas fa-2x fa-skull-crossbones"></i>
+            </span>
+        </div>
+        <div class="navbar-item is-size-4 is-uppercase has-text-weight-bold">
+            Death clock
         </div>
     </div>
-</section>
+</nav>
 
 <!-- Graph section -->
 <section>
-    <div class="container">
+    <div class="container" id="chartContainer">
         <canvas id="chart"></canvas>
     </div>
 </section>
@@ -53,14 +60,41 @@
             </div>
             <div class="column">
                 <div class="box is-fullwidth">
-                    <a class="button is-fullwidth">Add new variable</a>
+                    <div class="columns">
+                        <div class="column">
+                            <div class="select is-fullwidth">
+                                <select title="Variable type" id="variable-type">
+                                    <option>Twoja stara</option>
+                                    <option>Twój stary</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <a class="button is-fullwidth" onclick="createNewElement()">
+                        Add new variable</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="columns is-multiline" id="slider-div">
+        <div class="columns is-multiline" id="variables-container">
             <!-- here be dragons -->
         </div>
     </div>
 </section>
+
+<template id="variable-template">
+    <div class="variable-container column is-half-tablet is-full-mobile">
+        <div class="box is-fullwidth">
+            <div class="is-fullwidth">
+                <div class="is-fullwidth">
+                    <span id="label">Title</span>
+                    <a class="delete is-pulled-right" onclick="closeElement()"></a>
+                </div>
+                <input class="slider is-fullwidth" step="1" min="0" max="5" value="0" type="range">
+            </div>
+        </div>
+    </div>
+</template>
 </body>
 </html>
