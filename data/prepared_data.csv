@@ -1,0 +1,179 @@
+id,Agricultural,Industrial,Municipal
+AFG|Afghanistan,20.0,0.1695,0.2034
+ALB|Albania,0.5176,0.2318,0.5613
+DZA|Algeria,4.99,0.415,3.02
+AGO|Angola,0.1467,0.2396,0.3195
+ATG|Antigua and Barbuda,0.0018,0.0025,0.0072
+ARG|Argentina,27.93,4.0,5.85
+ARM|Armenia,2.949,0.125,0.198
+AUS|Australia,10.59,2.768,4.015
+AUT|Austria,0.0771,2.695,0.72
+AZE|Azerbaijan,10.1,2.36,0.521
+BHS|Bahamas,0.031,0.1592,0.0203
+BHR|Bahrain,0.1779,31.5,0.77
+BGD|Bangladesh,3.6,0.0548,0.0062
+BRB|Barbados,0.02,0.489,0.478
+BLR|Belarus,0.547,0.0402,5.256
+BEL|Belgium,0.7093,0.0684,0.0212
+BLZ|Belize,0.0114,0.059,0.03
+BEN|Benin,0.041,0.318,0.003
+BTN|Bhutan,0.017,1.92,0.032
+BOL|Bolivia (Plurinational State of),0.136,0.0488,0.3218
+BWA|Botswana,0.08,0.0389,0.0878
+BRA|Brazil,44.9,12.72,17.21
+BRN|Brunei Darussalam,0.0053,0.1515,0.8288
+BGR|Bulgaria,3.901,0.8996,0.4207
+BFA|Burkina Faso,0.0217,0.3756,0.222
+BDI|Burundi,0.015,0.0431,0.025
+CPV|Cabo Verde,4.0E-4,0.0016,2.053
+KHM|Cambodia,0.033,0.098,0.737
+CMR|Cameroon,0.1046,0.2468,4.749
+CAN|Canada,33.12,5.878,4.0E-4
+CAF|Central African Republic,0.012,0.0601,0.6722
+TCD|Chad,0.1037,0.1037,29.42
+CHL|Chile,4.744,1.267,385.2
+CHN|China,133.5,79.4,6.391
+COL|Colombia,2.242,3.134,0.0047
+COM|Comoros,5.0E-4,0.0048,0.004
+COG|Congo,0.024,0.0637,1.33
+CRI|Costa Rica,0.26,0.76,0.5953
+CIV|Côte d'Ivoire,0.318,0.6359,0.0086
+HRV|Croatia,0.126,0.5079,4.519
+CUB|Cuba,0.74,1.7,0.1676
+CYP|Cyprus,0.006,0.0841,0.044
+CZE|Czechia,1.514,0.9585,6.61
+PRK|Democratic People's Republic of Korea,1.145,0.9028,0.0719
+COD|Democratic Republic of the Congo,0.1468,0.4649,0.164
+DNK|Denmark,0.128,0.36,0.003
+DJI|Djibouti,0.0,0.016,0.001
+DMA|Dominica,0.0,0.019,5.715
+DOM|Dominican Republic,0.586,0.855,8.076
+ECU|Ecuador,0.549,1.293,67.0
+EGY|Egypt,2.0,9.0,1.431
+SLV|El Salvador,0.213,0.474,0.001
+GNQ|Equatorial Guinea,0.003,0.0158,0.55
+ERI|Eritrea,0.001,0.031,0.005
+EST|Estonia,1.655,0.06,1.006
+SWZ|Eswatini,0.0207,0.0413,9.687
+ETH|Ethiopia,0.0511,0.81,0.05
+FJI|Fiji,0.0096,0.0253,0.05
+FIN|Finland,2.124,0.415,3.143
+FRA|France,21.61,5.481,0.0403
+GAB|Gabon,0.0141,0.0847,0.0392
+GMB|Gambia,0.0212,0.0412,1.055
+GEO|Georgia,0.4,0.358,0.2109
+DEU|Germany,32.6,5.409,0.652
+GHA|Ghana,0.095,0.251,7.918
+GRC|Greece,0.3255,1.293,0.0021
+GRD|Grenada,0.0,0.012,1.886
+GTM|Guatemala,0.6031,0.835,0.2929
+GIN|Guinea,0.0562,0.2248,0.144
+GNB|Guinea-Bissau,0.0119,0.0341,1.363
+GUY|Guyana,0.0204,0.0613,1.209
+HTI|Haiti,0.051,0.19,1.178
+HND|Honduras,0.114,0.315,0.322
+HUN|Hungary,4.013,0.5945,3.0E-4
+ISL|Iceland,0.198,0.08,688.0
+IND|India,17.0,56.0,92.76
+IDN|Indonesia,24.65,13.99,86.0
+IRN|Iran (Islamic Republic of),1.1,6.2,52.0
+IRQ|Iraq,9.7,4.3,0.179
+IRL|Ireland,0.051,0.628,1.016
+ISR|Israel,0.113,0.712,12.89
+ITA|Italy,16.29,9.451,0.448
+JAM|Jamaica,0.076,0.288,54.43
+JPN|Japan,11.61,15.41,0.575
+JOR|Jordan,0.038,0.491,14.0
+KAZ|Kazakhstan,6.263,0.878,1.907
+KEN|Kenya,0.125,1.186,0.4919
+KWT|Kuwait,0.0233,0.4483,7.1
+KGZ|Kyrgyzstan,0.336,0.224,3.193
+LAO|Lao People's Democratic Republic,0.17,0.13,0.0363
+LVA|Latvia,0.0522,0.1593,0.78
+LBN|Lebanon,0.15,0.38,0.0038
+LSO|Lesotho,0.02,0.02,0.0123
+LBR|Liberia,0.0534,0.0802,4.85
+LBY|Libya,0.28,0.7,0.0656
+LTU|Lithuania,0.4159,0.1499,3.0E-4
+LUX|Luxembourg,0.002,0.0408,13.0
+MDG|Madagascar,0.1619,0.395,1.166
+MWI|Malawi,0.0477,0.1431,2.505
+MYS|Malaysia,4.788,3.902,0.0
+MDV|Maldives,3.0E-4,0.0056,5.075
+MLI|Mali,0.004,0.107,0.029
+MLT|Malta,0.001,0.0153,1.223
+MRT|Mauritania,0.0318,0.0954,0.491
+MUS|Mauritius,0.02,0.214,65.36
+MEX|Mexico,7.825,12.48,0.0
+MCO|Monaco,0.0,0.005,0.242
+MNG|Mongolia,0.238,0.071,0.0017
+MNE|Montenegro,0.0628,0.0964,9.156
+MAR|Morocco,0.212,1.063,1.076
+MOZ|Mozambique,0.025,0.372,29.57
+MMR|Myanmar,0.4984,3.323,0.201
+NAM|Namibia,0.014,0.073,9.32
+NPL|Nepal,0.0295,0.1476,0.0602
+NLD|Netherlands,9.446,1.217,3.207
+NZL|New Zealand,1.184,0.81,1.185
+NIC|Nicaragua,0.0736,0.286,0.6565
+NER|Niger,0.0137,0.0617,5.51
+NGA|Nigeria,1.965,5.0,0.8449
+NOR|Norway,1.071,0.838,0.189
+PSE|Occupied Palestinian Territory,0.029,0.2,1.168
+OMN|Oman,0.019,0.134,172.4
+PAK|Pakistan,1.4,9.65,0.446
+PAN|Panama,0.01,0.581,0.001
+PNG|Papua New Guinea,0.1676,0.2235,1.897
+PRY|Paraguay,0.154,0.362,12.12
+PER|Peru,0.289,1.254,67.07
+PHL|Philippines,8.254,6.235,1.102
+POL|Poland,9.425,2.292,8.767
+PRT|Portugal,1.497,0.9105,0.0641
+PRI|Puerto Rico,3.15,0.9386,0.262
+QAT|Qatar,0.008,0.174,15.96
+KOR|Republic of Korea,4.45,6.924,0.038
+MDA|Republic of Moldova,0.8825,0.146,1.135
+ROU|Romania,4.303,0.98,13.2
+RUS|Russian Federation,39.6,13.4,0.102
+RWA|Rwanda,0.0205,0.0614,2.0E-4
+KNA|Saint Kitts and Nevis,0.0,0.0154,0.0304
+LCA|Saint Lucia,0.0,0.0125,0.0
+VCT|Saint Vincent and the Grenadines,2.0E-6,0.0085,20.83
+SAU|Saudi Arabia,0.71,2.13,2.065
+SEN|Senegal,0.058,0.098,0.1167
+SYC|Seychelles,9.0E-4,0.0038,0.009
+SLE|Sierra Leone,0.0457,0.0555,0.111
+SGP|Singapore,0.0076,1.221,1.078
+SVK|Slovakia,0.0229,0.3288,0.3058
+SVN|Slovenia,0.0036,0.988,0.164
+SOM|Somalia,3.281,0.002,0.015
+ZAF|South Africa,9.69,1.625,4.185
+SSD|South Sudan,0.24,0.225,0.193
+ESP|Spain,25.47,6.572,5.308
+LKA|Sri Lanka,11.31,0.831,0.805
+SDN|Sudan,25.91,0.075,0.95
+SUR|Suriname,0.4311,0.1355,0.0493
+SWE|Sweden,0.098,1.572,1.019
+CHE|Switzerland,0.1601,0.6427,0.917
+SYR|Syrian Arab Republic,14.67,0.6154,1.475
+TJK|Tajikistan,10.44,0.4078,0.647
+THA|Thailand,51.79,2.777,2.739
+MKD|The former Yugoslav Republic of Macedonia,0.1255,0.107,0.2317
+TLS|Timor-Leste,1.071,0.002,0.099
+TGO|Togo,0.076,0.0063,0.1407
+TTO|Trinidad and Tobago,0.0167,0.1289,0.2376
+TUN|Tunisia,2.644,0.165,0.496
+TUR|Turkey,34.0,4.3,6.2
+TKM|Turkmenistan,26.36,0.839,0.755
+UGA|Uganda,0.259,0.05,0.328
+UKR|Ukraine,4.454,7.126,3.266
+ARE|United Arab Emirates,3.312,0.069,0.617
+GBR|United Kingdom,1.049,1.193,5.866
+TZA|United Republic of Tanzania,4.632,0.025,0.527
+USA|United States of America,175.1,248.4,62.09
+URY|Uruguay,3.17,0.08,0.41
+UZB|Uzbekistan,50.4,1.5,4.1
+VEN|Venezuela (Bolivarian Republic of),16.71,0.7933,5.123
+VNM|Viet Nam,77.75,3.074,1.206
+YEM|Yemen,3.235,0.065,0.265
+ZMB|Zambia,1.152,0.13,0.29
