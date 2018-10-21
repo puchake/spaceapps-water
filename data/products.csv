@@ -1,0 +1,46 @@
+Product,liters,,min value,max value,time
+Car,80000,per unit,0,10,yeary
+Leather Shoes,13725.9,per unit,0,10,yearly
+Smartphone (mobile) ,12075.46,per unit,0,10,yearly
+Bed Sheet (cotton) ,10746.784,per unit,0,10,yearly
+Jeans (cotton) ,7979.648,per unit,0,10,monthly
+T-shirt (cotton) ,2494.59,per unit,0,20,monthly
+Steak (beef),428.6301,per kilo ,0,20,monthly
+Hamburger,2498.37,per unit,0,20,monthly
+Ham (pork),214.3,per kilo ,0,10,monthly
+Beef,15415,per kilo,0,10,monthly
+Lamb,10412,per kilo,0,10,monthly
+Sweetcorn,1222,per kilo,0,10,monthly
+Lettuce,237,per kilo,0,10,monthly
+Bread,1608,per kilo,0,4,monthly
+Potatoes,5988,per kilo,0,4,monthly
+Pork,4177,per kilo,0,4,monthly
+Olives,3015,per kilo,0,2,monthly
+Tomatoes,214,per kilo,0,5,monthly
+Sugar,197,per kilo,0,10,monthly
+Fodder,253,per kilo,0,10,monthly
+Vegetables,322,per kilo,0,15,monthly
+Roots,387,per kilo,0,10,monthly
+Fruits,967,per kilo,0,20,monthly
+Cereals,1644,per kilo,0,5,monthly
+Oil,2364,per kilo,0,10,monthly
+Tobacco,2925,per kilo,0,10,monthly
+"Fibres,",3837,per kilo,0,10,monthly
+Pulses,4055,per kilo,0,10,monthly
+Spices,7048,per kilo,0,10,monthly
+Nuts,9063,per kilo,0,10,monthly
+Rubber,13748,per kilo,0,10,monthly
+Stimulants,14443,per kilo,0,10,monthly
+Burger,2400,per kilo,0,10,monthly
+Cheese ,5000,per kilo,0,10,monthly
+"Brushing teeth, tap running",9,per usage,0,5,daily
+Bath,130,per usage,0,14,weekly
+"Dish-washing by hand, tap running",60,per usage,0,10,weekly
+Dishwasher,30,per usage,0,10,weekly
+Food preparation,17,per usage,0,5,daily
+"Hands washing, tap running",7,per usage,0,7,daily
+Laundry machine,150,per usage,0,7,weekly
+"Shaving, tap running",15,per usage,0,3,weekly
+Shower (per minute),13,per usage,0,14,weekly
+Toilet (per flush),12,per usage,0,5,daily
+Books ,1625,per unit ,0,50,yearly
