@@ -1,39 +1,3 @@
-const monthLabel = function (month) {
-    if (month === 0) {
-        return 'today';
-    } else if (month === 1) {
-        return '1 month'
-    } else {
-        return `${month} months`;
-    }
-};
-
-const createData = function (population) {
-    let datapoints = [];
-    let labels = [];
-
-    let index = 0;
-    let lastPopulation = population;
-    let penultimatePoint = population;
-
-    do {
-        penultimatePoint = lastPopulation;
-        datapoints.push(lastPopulation);
-
-        lastPopulation *= 0.5;
-        lastPopulation -= 100000;
-        lastPopulation = Math.max(lastPopulation, 0);
-
-        labels.push(monthLabel(index));
-        index++;
-    } while (penultimatePoint > 0 && datapoints.length < 15);
-
-    return {
-        'labels': labels,
-        'data': datapoints
-    }
-};
-
 function loadCountries() {
     $.getJSON('static/data/countries.json', function(data) {
         window.countriesJson = data;
