@@ -1,5 +1,5 @@
 function loadCountries() {
-    $.getJSON('static/data/countries.json', function(data) {
+    $.getJSON('static/data/countries.json', function (data) {
         window.countriesJson = data;
         console.log("Countries json loaded.");
         populateSelect("countrySelect", window.countriesJson);
@@ -8,7 +8,7 @@ function loadCountries() {
 }
 
 function loadProducts() {
-    $.getJSON('static/data/products.json', function(data) {
+    $.getJSON('static/data/products.json', function (data) {
         window.productsJson = data;
         console.log("Products json loaded.");
         populateSelect("variable-type", window.productsJson);
@@ -22,9 +22,9 @@ function setWaterData(countryName) {
         [16];
     let consumption_datapoints = window.countriesJson[countryName]
         ["population"].map(
-            (population) => population / referencePopulation
-                * window.countriesJson[countryName]["total_water_consumption"]
-        );
+        (population) => population / referencePopulation
+            * window.countriesJson[countryName]["total_water_consumption"]
+    );
     let resources_datapoints = Array.from(
         {
             length: consumption_datapoints.length
@@ -50,7 +50,7 @@ const defaultCountry = 'Afghanistan';
 function populateSelect(selectId, jsonDict) {
     let select = document.getElementById(selectId);
 
-    for(let element in jsonDict) {
+    for (let element in jsonDict) {
         const option = document.createElement('option');
         option.value = element;
         option.innerHTML = element;
@@ -63,9 +63,9 @@ function populateSelect(selectId, jsonDict) {
     }
 }
 
-const sumModifiers = function() {
-    litersSum = 0;
-    for(let element in window.waterModifiers) {
+const sumModifiers = function () {
+    let litersSum = 0;
+    for (let element in window.waterModifiers) {
         let modifier = window.waterModifiers[element];
         let timeMultiplier = 1;
         if (modifier.timeUnit === "monthly") {
@@ -83,36 +83,36 @@ const sumModifiers = function() {
     return litersSum / 1e12;
 };
 
-const removeWaterModifier = function(name) {
+const removeWaterModifier = function (name) {
     delete window.waterModifiers[name];
     reloadModifiers();
 };
 
-const reloadModifiers = function() {
+const reloadModifiers = function () {
     let referencePopulation = window.countriesJson[window.countryName]
         ["population"][16];
     let consumption_datapoints = window.countriesJson[window.countryName]
         ["population"].map(
-            (population) => population / referencePopulation
-                * window.countriesJson[window.countryName]
-                    ["total_water_consumption"]
-        );
-    modifiersSum = sumModifiers();
-    for (var i = 0; i < consumption_datapoints.length; i++) {
+        (population) => population / referencePopulation
+            * window.countriesJson[window.countryName]
+                ["total_water_consumption"]
+    );
+    let modifiersSum = sumModifiers();
+    for (let i = 0; i < consumption_datapoints.length; i++) {
         consumption_datapoints[i] = consumption_datapoints[i]
             + window.countriesJson[window.countryName]["population"][i]
-              * modifiersSum;
+            * modifiersSum;
     }
     window.graphData.data[0] = consumption_datapoints;
     updateChart();
 };
 
-const applyWaterModifierWithName = function(value, name) {
+const applyWaterModifierWithName = function (value, name) {
     let product = window.productsJson[name];
     applyWaterModifier(name, product.avg, value, product.liters, product.time);
 };
 
-const applyWaterModifier = function(name, avg, current, multiplier, timeUnit) {
+const applyWaterModifier = function (name, avg, current, multiplier, timeUnit) {
     window.waterModifiers[name] = {avg, current, multiplier, timeUnit};
     reloadModifiers();
 };
