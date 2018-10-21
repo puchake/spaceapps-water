@@ -8,11 +8,18 @@ let config = {
     type: 'line',
     data: {
         labels: window.graphData.labels,
-        datasets: [{
-            label: 'Number of people alive',
-            data: window.graphData.data,
-            borderColor: 'rgb(255, 99, 132)'
-        }]
+        datasets: [
+            {
+                label: 'Water consumption per year',
+                data: window.graphData.data[0],
+                borderColor: 'rgb(255, 99, 132)'
+            },
+            {
+                label: 'Renewable water resources',
+                data: window.graphData.data[1],
+                borderColor: 'rgb(0, 0, 255)'
+            }
+        ]
     },
     options: {
         legend: false,
@@ -38,12 +45,12 @@ let config = {
                 display: true,
                 scaleLabel: {
                     display: true,
-                    labelString: 'Population'
+                    labelString: 'Water [10^9 m^3 / year]'
                 },
                 ticks: {
                     suggestedMin: 0,
                     callback: function (value) {
-                        return value.toExponential(1);
+                        return value;
                     }
                 }
             }]
@@ -54,7 +61,8 @@ let config = {
 let chart = new Chart(ctx, config);
 
 function updateChart() {
-    config.data.datasets[0].data = window.graphData.data;
+    config.data.datasets[0].data = window.graphData.data[0];
+    config.data.datasets[1].data = window.graphData.data[1];
     config.data.labels = window.graphData.labels;
     chart.update();
 }

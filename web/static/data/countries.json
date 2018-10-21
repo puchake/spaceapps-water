@@ -106,7 +106,8 @@
       144917222.2222222,
       147756777.7777778
     ],
-    "total_water": 65.33
+    "total_water_consumption": 20.372899999999998,
+    "total_water_resources": 65.33
   },
   "Albania": {
     "agricultural": 0.5176,
@@ -215,7 +216,8 @@
       1981111.111111111,
       1969666.6666666667
     ],
-    "total_water": 30.2
+    "total_water_consumption": 1.3107,
+    "total_water_resources": 30.2
   },
   "Algeria": {
     "agricultural": 4.99,
@@ -324,7 +326,8 @@
       73238222.22222222,
       73500777.77777778
     ],
-    "total_water": 11.67
+    "total_water_consumption": 8.425,
+    "total_water_resources": 11.67
   },
   "Angola": {
     "agricultural": 0.1467,
@@ -433,7 +436,8 @@
       225200333.33333334,
       230652666.66666666
     ],
-    "total_water": 148.4
+    "total_water_consumption": 0.7058,
+    "total_water_resources": 148.4
   },
   "Antigua and Barbuda": {
     "agricultural": 0.0018,
@@ -542,7 +546,8 @@
       129777.77777777778,
       129777.77777777778
     ],
-    "total_water": 0.052
+    "total_water_consumption": 0.0115,
+    "total_water_resources": 0.052
   },
   "Argentina": {
     "agricultural": 27.93,
@@ -651,7 +656,8 @@
       61731000.0,
       61801333.333333336
     ],
-    "total_water": 876.2
+    "total_water_consumption": 37.78,
+    "total_water_resources": 876.2
   },
   "Armenia": {
     "agricultural": 2.949,
@@ -760,7 +766,8 @@
       2114000.0,
       2103444.4444444445
     ],
-    "total_water": 7.769
+    "total_water_consumption": 3.272,
+    "total_water_resources": 7.769
   },
   "Australia": {
     "agricultural": 10.59,
@@ -869,7 +876,8 @@
       38948333.333333336,
       39058444.44444445
     ],
-    "total_water": 492.0
+    "total_water_consumption": 17.373,
+    "total_water_resources": 492.0
   },
   "Austria": {
     "agricultural": 0.0771,
@@ -978,7 +986,8 @@
       7771444.444444444,
       7764555.555555556
     ],
-    "total_water": 77.7
+    "total_water_consumption": 3.4920999999999998,
+    "total_water_resources": 77.7
   },
   "Azerbaijan": {
     "agricultural": 10.1,
@@ -1087,7 +1096,8 @@
       10379000.0,
       10363111.111111112
     ],
-    "total_water": 34.68
+    "total_water_consumption": 12.981,
+    "total_water_resources": 34.68
   },
   "Bahamas": {
     "agricultural": 0.031,
@@ -1196,7 +1206,8 @@
       470111.1111111111,
       469777.77777777775
     ],
-    "total_water": 0.7
+    "total_water_consumption": 0.21050000000000002,
+    "total_water_resources": 0.7
   },
   "Bahrain": {
     "agricultural": 0.1779,
@@ -1305,7 +1316,8 @@
       2229555.5555555555,
       2225000.0
     ],
-    "total_water": 0.116
+    "total_water_consumption": 32.447900000000004,
+    "total_water_resources": 0.116
   },
   "Bangladesh": {
     "agricultural": 3.6,
@@ -1414,7 +1426,8 @@
       207712000.0,
       207391000.0
     ],
-    "total_water": 1227.0
+    "total_water_consumption": 3.6610000000000005,
+    "total_water_resources": 1227.0
   },
   "Barbados": {
     "agricultural": 0.02,
@@ -1523,7 +1536,8 @@
       258666.66666666666,
       258222.22222222222
     ],
-    "total_water": 0.08
+    "total_water_consumption": 0.987,
+    "total_water_resources": 0.08
   },
   "Belarus": {
     "agricultural": 0.547,
@@ -1632,7 +1646,8 @@
       7388888.888888889,
       7378000.0
     ],
-    "total_water": 57.9
+    "total_water_consumption": 5.8432,
+    "total_water_resources": 57.9
   },
   "Belgium": {
     "agricultural": 0.7093,
@@ -1741,7 +1756,8 @@
       12371444.444444444,
       12378444.444444444
     ],
-    "total_water": 18.3
+    "total_water_consumption": 0.7989,
+    "total_water_resources": 18.3
   },
   "Belize": {
     "agricultural": 0.0114,
@@ -1850,7 +1866,8 @@
       765333.3333333334,
       768222.2222222222
     ],
-    "total_water": 21.73
+    "total_water_consumption": 0.10039999999999999,
+    "total_water_resources": 21.73
   },
   "Benin": {
     "agricultural": 0.041,
@@ -1959,7 +1976,8 @@
       55166777.777777776,
       56166666.666666664
     ],
-    "total_water": 26.39
+    "total_water_consumption": 0.362,
+    "total_water_resources": 26.39
   },
   "Bhutan": {
     "agricultural": 0.017,
@@ -2068,7 +2086,8 @@
       994444.4444444445,
       993333.3333333334
     ],
-    "total_water": 78.0
+    "total_water_consumption": 1.9689999999999999,
+    "total_water_resources": 78.0
   },
   "Bolivia (Plurinational State of)": {
     "agricultural": 0.136,
@@ -2177,7 +2196,8 @@
       20781222.222222224,
       20865666.666666668
     ],
-    "total_water": 574.0
+    "total_water_consumption": 0.5065999999999999,
+    "total_water_resources": 574.0
   },
   "Botswana": {
     "agricultural": 0.08,
@@ -2286,7 +2306,8 @@
       4196222.222222222,
       4210222.222222222
     ],
-    "total_water": 12.24
+    "total_water_consumption": 0.2067,
+    "total_water_resources": 12.24
   },
   "Brazil": {
     "agricultural": 44.9,
@@ -2395,7 +2416,8 @@
       208525111.1111111,
       207908444.44444445
     ],
-    "total_water": 8647.0
+    "total_water_consumption": 74.83,
+    "total_water_resources": 8647.0
   },
   "Brunei Darussalam": {
     "agricultural": 0.0053,
@@ -2504,7 +2526,8 @@
       513111.1111111111,
       512111.1111111111
     ],
-    "total_water": 8.5
+    "total_water_consumption": 0.9856,
+    "total_water_resources": 8.5
   },
   "Bulgaria": {
     "agricultural": 3.901,
@@ -2613,7 +2636,8 @@
       4003000.0,
       3986666.6666666665
     ],
-    "total_water": 21.3
+    "total_water_consumption": 5.221299999999999,
+    "total_water_resources": 21.3
   },
   "Burkina Faso": {
     "agricultural": 0.0217,
@@ -2722,7 +2746,8 @@
       109300555.55555555,
       111573000.0
     ],
-    "total_water": 13.5
+    "total_water_consumption": 0.6193,
+    "total_water_resources": 13.5
   },
   "Burundi": {
     "agricultural": 0.015,
@@ -2831,7 +2856,8 @@
       66572666.666666664,
       67980000.0
     ],
-    "total_water": 12.54
+    "total_water_consumption": 0.08310000000000001,
+    "total_water_resources": 12.54
   },
   "Cabo Verde": {
     "agricultural": 0.0004,
@@ -2940,7 +2966,8 @@
       856888.8888888889,
       857888.8888888889
     ],
-    "total_water": 0.3
+    "total_water_consumption": 2.0549999999999997,
+    "total_water_resources": 0.3
   },
   "Cambodia": {
     "agricultural": 0.033,
@@ -3049,7 +3076,8 @@
       26183333.333333332,
       26243111.111111112
     ],
-    "total_water": 476.1
+    "total_water_consumption": 0.868,
+    "total_water_resources": 476.1
   },
   "Cameroon": {
     "agricultural": 0.1046,
@@ -3158,7 +3186,8 @@
       111220444.44444445,
       113152777.77777778
     ],
-    "total_water": 283.1
+    "total_water_consumption": 5.1004,
+    "total_water_resources": 283.1
   },
   "Canada": {
     "agricultural": 33.12,
@@ -3267,7 +3296,8 @@
       47691111.11111111,
       47761444.44444445
     ],
-    "total_water": 2902.0
+    "total_water_consumption": 38.9984,
+    "total_water_resources": 2902.0
   },
   "Central African Republic": {
     "agricultural": 0.012,
@@ -3376,7 +3406,8 @@
       18094111.111111112,
       18385000.0
     ],
-    "total_water": 141.0
+    "total_water_consumption": 0.7443,
+    "total_water_resources": 141.0
   },
   "Chad": {
     "agricultural": 0.1037,
@@ -3485,7 +3516,8 @@
       96308000.0,
       98715777.77777778
     ],
-    "total_water": 45.7
+    "total_water_consumption": 29.6274,
+    "total_water_resources": 45.7
   },
   "Chile": {
     "agricultural": 4.744,
@@ -3594,7 +3626,8 @@
       19467555.555555556,
       19435444.444444444
     ],
-    "total_water": 923.1
+    "total_water_consumption": 391.211,
+    "total_water_resources": 923.1
   },
   "China": {
     "agricultural": 133.5,
@@ -3703,7 +3736,8 @@
       1059864222.2222222,
       1055704777.7777778
     ],
-    "total_water": 2840.0
+    "total_water_consumption": 219.291,
+    "total_water_resources": 2840.0
   },
   "Colombia": {
     "agricultural": 2.242,
@@ -3812,7 +3846,8 @@
       50812333.333333336,
       50685111.11111111
     ],
-    "total_water": 2360.0
+    "total_water_consumption": 5.380699999999999,
+    "total_water_resources": 2360.0
   },
   "Comoros": {
     "agricultural": 0.0005,
@@ -3921,7 +3956,8 @@
       2797666.6666666665,
       2836000.0
     ],
-    "total_water": 1.2
+    "total_water_consumption": 0.0093,
+    "total_water_resources": 1.2
   },
   "Congo": {
     "agricultural": 0.024,
@@ -4030,7 +4066,8 @@
       27183000.0,
       27678000.0
     ],
-    "total_water": 832.0
+    "total_water_consumption": 1.4177,
+    "total_water_resources": 832.0
   },
   "Costa Rica": {
     "agricultural": 0.26,
@@ -4139,7 +4176,8 @@
       5422777.777777778,
       5411000.0
     ],
-    "total_water": 113.0
+    "total_water_consumption": 1.6153,
+    "total_water_resources": 113.0
   },
   "Croatia": {
     "agricultural": 0.126,
@@ -4248,7 +4286,8 @@
       2710111.111111111,
       2699888.888888889
     ],
-    "total_water": 105.5
+    "total_water_consumption": 5.1529,
+    "total_water_resources": 105.5
   },
   "Cuba": {
     "agricultural": 0.74,
@@ -4357,7 +4396,8 @@
       8595888.888888888,
       8569444.444444444
     ],
-    "total_water": 38.12
+    "total_water_consumption": 2.6076,
+    "total_water_resources": 38.12
   },
   "Cyprus": {
     "agricultural": 0.006,
@@ -4466,7 +4506,8 @@
       1282000.0,
       1279777.7777777778
     ],
-    "total_water": 0.78
+    "total_water_consumption": 0.1341,
+    "total_water_resources": 0.78
   },
   "Czechia": {
     "agricultural": 1.514,
@@ -4575,7 +4616,8 @@
       8485777.777777778,
       8472333.333333334
     ],
-    "total_water": 13.15
+    "total_water_consumption": 9.0825,
+    "total_water_resources": 13.15
   },
   "C\u0102\u00b4te d'Ivoire": {
     "agricultural": 0.318,
@@ -4684,7 +4726,8 @@
       115522333.33333333,
       117606444.44444445
     ],
-    "total_water": 84.14
+    "total_water_consumption": 0.9625,
+    "total_water_resources": 84.14
   },
   "Democratic Republic of the Congo": {
     "agricultural": 0.1468,
@@ -4793,7 +4836,8 @@
       576854444.4444444,
       591315111.1111112
     ],
-    "total_water": 1283.0
+    "total_water_consumption": 0.7757000000000001,
+    "total_water_resources": 1283.0
   },
   "Denmark": {
     "agricultural": 0.128,
@@ -4902,7 +4946,8 @@
       6405777.777777778,
       6410444.444444444
     ],
-    "total_water": 6.0
+    "total_water_consumption": 0.491,
+    "total_water_resources": 6.0
   },
   "Djibouti": {
     "agricultural": 0.0,
@@ -5011,7 +5056,8 @@
       1579000.0,
       1584000.0
     ],
-    "total_water": 0.3
+    "total_water_consumption": 0.017,
+    "total_water_resources": 0.3
   },
   "Dominica": {
     "agricultural": 0.0,
@@ -5120,7 +5166,8 @@
       66111.11111111111,
       65888.88888888889
     ],
-    "total_water": 0.2
+    "total_water_consumption": 5.734,
+    "total_water_resources": 0.2
   },
   "Dominican Republic": {
     "agricultural": 0.586,
@@ -5229,7 +5276,8 @@
       14936444.444444444,
       14944777.777777778
     ],
-    "total_water": 23.5
+    "total_water_consumption": 9.517,
+    "total_water_resources": 23.5
   },
   "Ecuador": {
     "agricultural": 0.549,
@@ -5338,7 +5386,8 @@
       27480666.666666668,
       27533666.666666668
     ],
-    "total_water": 442.4
+    "total_water_consumption": 68.842,
+    "total_water_resources": 442.4
   },
   "Egypt": {
     "agricultural": 2.0,
@@ -5447,7 +5496,8 @@
       234005333.33333334,
       235877111.1111111
     ],
-    "total_water": 58.3
+    "total_water_consumption": 12.431000000000001,
+    "total_water_resources": 58.3
   },
   "El Salvador": {
     "agricultural": 0.213,
@@ -5556,7 +5606,8 @@
       6829888.888888889,
       6808555.555555556
     ],
-    "total_water": 26.27
+    "total_water_consumption": 0.688,
+    "total_water_resources": 26.27
   },
   "Equatorial Guinea": {
     "agricultural": 0.003,
@@ -5665,7 +5716,8 @@
       6212666.666666667,
       6325666.666666667
     ],
-    "total_water": 26.0
+    "total_water_consumption": 0.5688000000000001,
+    "total_water_resources": 26.0
   },
   "Eritrea": {
     "agricultural": 0.001,
@@ -5774,7 +5826,8 @@
       18669777.777777776,
       18925444.444444444
     ],
-    "total_water": 7.315
+    "total_water_consumption": 0.037,
+    "total_water_resources": 7.315
   },
   "Estonia": {
     "agricultural": 1.655,
@@ -5883,7 +5936,8 @@
       912666.6666666666,
       909777.7777777778
     ],
-    "total_water": 12.81
+    "total_water_consumption": 2.721,
+    "total_water_resources": 12.81
   },
   "Ethiopia": {
     "agricultural": 0.0511,
@@ -5992,7 +6046,8 @@
       385164777.7777778,
       390940777.7777778
     ],
-    "total_water": 122.0
+    "total_water_consumption": 0.9111000000000001,
+    "total_water_resources": 122.0
   },
   "Fiji": {
     "agricultural": 0.0096,
@@ -6101,7 +6156,8 @@
       1060000.0,
       1060222.2222222222
     ],
-    "total_water": 28.55
+    "total_water_consumption": 0.0849,
+    "total_water_resources": 28.55
   },
   "Finland": {
     "agricultural": 2.124,
@@ -6210,7 +6266,8 @@
       5860000.0,
       5862777.777777778
     ],
-    "total_water": 110.0
+    "total_water_consumption": 5.682,
+    "total_water_resources": 110.0
   },
   "France": {
     "agricultural": 21.61,
@@ -6319,7 +6376,8 @@
       72239111.1111111,
       72303000.0
     ],
-    "total_water": 211.0
+    "total_water_consumption": 27.1313,
+    "total_water_resources": 211.0
   },
   "Gabon": {
     "agricultural": 0.0141,
@@ -6428,7 +6486,8 @@
       6139000.0,
       6208888.888888889
     ],
-    "total_water": 166.0
+    "total_water_consumption": 0.138,
+    "total_water_resources": 166.0
   },
   "Gambia": {
     "agricultural": 0.0212,
@@ -6537,7 +6596,8 @@
       10960888.888888888,
       11179666.666666666
     ],
-    "total_water": 8.0
+    "total_water_consumption": 1.1174,
+    "total_water_resources": 8.0
   },
   "Georgia": {
     "agricultural": 0.4,
@@ -6646,7 +6706,8 @@
       2883000.0,
       2874555.5555555555
     ],
-    "total_water": 63.33
+    "total_water_consumption": 0.9689,
+    "total_water_resources": 63.33
   },
   "Germany": {
     "agricultural": 32.6,
@@ -6755,7 +6816,8 @@
       68047777.77777778,
       67963333.33333333
     ],
-    "total_water": 154.0
+    "total_water_consumption": 38.661,
+    "total_water_resources": 154.0
   },
   "Ghana": {
     "agricultural": 0.095,
@@ -6864,7 +6926,8 @@
       89779000.0,
       90806111.1111111
     ],
-    "total_water": 56.2
+    "total_water_consumption": 8.264,
+    "total_water_resources": 56.2
   },
   "Greece": {
     "agricultural": 0.3255,
@@ -6973,7 +7036,8 @@
       7674222.222222222,
       7647888.888888889
     ],
-    "total_water": 68.4
+    "total_water_consumption": 1.6206,
+    "total_water_resources": 68.4
   },
   "Grenada": {
     "agricultural": 0.0,
@@ -7082,7 +7146,8 @@
       95555.55555555556,
       95111.11111111111
     ],
-    "total_water": 0.2
+    "total_water_consumption": 1.898,
+    "total_water_resources": 0.2
   },
   "Guatemala": {
     "agricultural": 0.6031,
@@ -7191,7 +7256,8 @@
       39300222.222222224,
       39527444.44444445
     ],
-    "total_water": 127.9
+    "total_water_consumption": 1.7309999999999999,
+    "total_water_resources": 127.9
   },
   "Guinea": {
     "agricultural": 0.0562,
@@ -7300,7 +7366,8 @@
       61955777.777777776,
       63108111.11111111
     ],
-    "total_water": 226.0
+    "total_water_consumption": 0.42500000000000004,
+    "total_water_resources": 226.0
   },
   "Guinea-Bissau": {
     "agricultural": 0.0119,
@@ -7409,7 +7476,8 @@
       7446444.444444444,
       7565111.111111111
     ],
-    "total_water": 31.4
+    "total_water_consumption": 1.409,
+    "total_water_resources": 31.4
   },
   "Guyana": {
     "agricultural": 0.0204,
@@ -7518,7 +7586,8 @@
       807444.4444444445,
       806222.2222222222
     ],
-    "total_water": 271.0
+    "total_water_consumption": 1.2907000000000002,
+    "total_water_resources": 271.0
   },
   "Haiti": {
     "agricultural": 0.051,
@@ -7627,7 +7696,8 @@
       16724777.777777778,
       16770000.0
     ],
-    "total_water": 14.03
+    "total_water_consumption": 1.419,
+    "total_water_resources": 14.03
   },
   "Honduras": {
     "agricultural": 0.114,
@@ -7736,7 +7806,8 @@
       16132555.555555556,
       16160777.777777778
     ],
-    "total_water": 92.16
+    "total_water_consumption": 0.751,
+    "total_water_resources": 92.16
   },
   "Hungary": {
     "agricultural": 4.013,
@@ -7845,7 +7916,8 @@
       6485333.333333333,
       6464888.888888889
     ],
-    "total_water": 104.0
+    "total_water_consumption": 4.6078,
+    "total_water_resources": 104.0
   },
   "Iceland": {
     "agricultural": 0.198,
@@ -7954,7 +8026,8 @@
       394333.3333333333,
       394333.3333333333
     ],
-    "total_water": 170.0
+    "total_water_consumption": 688.278,
+    "total_water_resources": 170.0
   },
   "India": {
     "agricultural": 17.0,
@@ -8063,7 +8136,8 @@
       1736673555.5555556,
       1736286555.5555556
     ],
-    "total_water": 1911.0
+    "total_water_consumption": 165.76,
+    "total_water_resources": 1911.0
   },
   "Indonesia": {
     "agricultural": 24.65,
@@ -8172,7 +8246,8 @@
       347592555.5555556,
       347898333.3333333
     ],
-    "total_water": 2019.0
+    "total_water_consumption": 124.64,
+    "total_water_resources": 2019.0
   },
   "Iran (Islamic Republic of)": {
     "agricultural": 1.1,
@@ -8281,7 +8356,8 @@
       81498111.1111111,
       81217777.77777778
     ],
-    "total_water": 137.0
+    "total_water_consumption": 59.3,
+    "total_water_resources": 137.0
   },
   "Iraq": {
     "agricultural": 9.7,
@@ -8390,7 +8466,8 @@
       178423333.33333334,
       181300777.7777778
     ],
-    "total_water": 89.86
+    "total_water_consumption": 14.179,
+    "total_water_resources": 89.86
   },
   "Ireland": {
     "agricultural": 0.051,
@@ -8499,7 +8576,8 @@
       6154000.0,
       6159444.444444444
     ],
-    "total_water": 52.0
+    "total_water_consumption": 1.695,
+    "total_water_resources": 52.0
   },
   "Israel": {
     "agricultural": 0.113,
@@ -8608,7 +8686,8 @@
       17936111.111111112,
       18047222.222222224
     ],
-    "total_water": 1.78
+    "total_water_consumption": 13.715,
+    "total_water_resources": 1.78
   },
   "Italy": {
     "agricultural": 16.29,
@@ -8717,7 +8796,8 @@
       46070000.0,
       45997666.666666664
     ],
-    "total_water": 191.3
+    "total_water_consumption": 26.189,
+    "total_water_resources": 191.3
   },
   "Jamaica": {
     "agricultural": 0.076,
@@ -8826,7 +8906,8 @@
       2106111.111111111,
       2091222.2222222222
     ],
-    "total_water": 10.82
+    "total_water_consumption": 54.794,
+    "total_water_resources": 10.82
   },
   "Japan": {
     "agricultural": 11.61,
@@ -8935,7 +9016,8 @@
       84725000.0,
       84486555.55555555
     ],
-    "total_water": 430.0
+    "total_water_consumption": 27.595,
+    "total_water_resources": 430.0
   },
   "Jordan": {
     "agricultural": 0.038,
@@ -9044,7 +9126,8 @@
       22679222.222222224,
       22865000.0
     ],
-    "total_water": 0.937
+    "total_water_consumption": 14.529,
+    "total_water_resources": 0.937
   },
   "Kazakhstan": {
     "agricultural": 6.263,
@@ -9153,7 +9236,8 @@
       28009000.0,
       28099444.444444444
     ],
-    "total_water": 108.4
+    "total_water_consumption": 9.048,
+    "total_water_resources": 108.4
   },
   "Kenya": {
     "agricultural": 0.125,
@@ -9262,7 +9346,8 @@
       175862444.44444445,
       177980555.55555555
     ],
-    "total_water": 30.7
+    "total_water_consumption": 1.8029,
+    "total_water_resources": 30.7
   },
   "Kuwait": {
     "agricultural": 0.0233,
@@ -9371,7 +9456,8 @@
       5990888.888888889,
       5998444.444444444
     ],
-    "total_water": 0.02
+    "total_water_consumption": 7.571599999999999,
+    "total_water_resources": 0.02
   },
   "Kyrgyzstan": {
     "agricultural": 0.336,
@@ -9480,7 +9566,8 @@
       10794222.222222222,
       10846888.888888888
     ],
-    "total_water": 23.62
+    "total_water_consumption": 3.753,
+    "total_water_resources": 23.62
   },
   "Lao People's Democratic Republic": {
     "agricultural": 0.17,
@@ -9589,7 +9676,8 @@
       10891444.444444444,
       10915888.888888888
     ],
-    "total_water": 333.5
+    "total_water_consumption": 0.33630000000000004,
+    "total_water_resources": 333.5
   },
   "Latvia": {
     "agricultural": 0.0522,
@@ -9698,7 +9786,8 @@
       1200777.7777777778,
       1196777.7777777778
     ],
-    "total_water": 34.94
+    "total_water_consumption": 0.9915,
+    "total_water_resources": 34.94
   },
   "Lebanon": {
     "agricultural": 0.15,
@@ -9807,7 +9896,8 @@
       5267000.0,
       5252000.0
     ],
-    "total_water": 4.503
+    "total_water_consumption": 0.5338,
+    "total_water_resources": 4.503
   },
   "Lesotho": {
     "agricultural": 0.02,
@@ -9916,7 +10006,8 @@
       4421444.444444444,
       4447444.444444444
     ],
-    "total_water": 3.022
+    "total_water_consumption": 0.0523,
+    "total_water_resources": 3.022
   },
   "Liberia": {
     "agricultural": 0.0534,
@@ -10025,7 +10116,8 @@
       21468222.222222224,
       21829555.555555556
     ],
-    "total_water": 232.0
+    "total_water_consumption": 4.9836,
+    "total_water_resources": 232.0
   },
   "Libya": {
     "agricultural": 0.28,
@@ -10134,7 +10226,8 @@
       8605777.777777778,
       8606444.444444444
     ],
-    "total_water": 0.7
+    "total_water_consumption": 1.0456,
+    "total_water_resources": 0.7
   },
   "Lithuania": {
     "agricultural": 0.4159,
@@ -10243,7 +10336,8 @@
       1951666.6666666667,
       1946333.3333333333
     ],
-    "total_water": 24.5
+    "total_water_consumption": 0.5660999999999999,
+    "total_water_resources": 24.5
   },
   "Luxembourg": {
     "agricultural": 0.002,
@@ -10352,7 +10446,8 @@
       879888.8888888889,
       882222.2222222222
     ],
-    "total_water": 3.5
+    "total_water_consumption": 13.0428,
+    "total_water_resources": 3.5
   },
   "Madagascar": {
     "agricultural": 0.1619,
@@ -10461,7 +10556,8 @@
       114476444.44444445,
       116268666.66666667
     ],
-    "total_water": 337.0
+    "total_water_consumption": 1.7228999999999999,
+    "total_water_resources": 337.0
   },
   "Malawi": {
     "agricultural": 0.0477,
@@ -10570,7 +10666,8 @@
       95565444.44444445,
       97243111.1111111
     ],
-    "total_water": 17.28
+    "total_water_consumption": 2.6957999999999998,
+    "total_water_resources": 17.28
   },
   "Malaysia": {
     "agricultural": 4.788,
@@ -10679,7 +10776,8 @@
       44314333.333333336,
       44312666.666666664
     ],
-    "total_water": 580.0
+    "total_water_consumption": 8.690000000000001,
+    "total_water_resources": 580.0
   },
   "Maldives": {
     "agricultural": 0.0003,
@@ -10788,7 +10886,8 @@
       553111.1111111111,
       552555.5555555555
     ],
-    "total_water": 0.03
+    "total_water_consumption": 5.0809,
+    "total_water_resources": 0.03
   },
   "Mali": {
     "agricultural": 0.004,
@@ -10897,7 +10996,8 @@
       127393000.0,
       130575555.55555555
     ],
-    "total_water": 120.0
+    "total_water_consumption": 0.14,
+    "total_water_resources": 120.0
   },
   "Malta": {
     "agricultural": 0.001,
@@ -11006,7 +11106,8 @@
       346333.3333333333,
       345666.6666666667
     ],
-    "total_water": 0.0505
+    "total_water_consumption": 1.2393,
+    "total_water_resources": 0.0505
   },
   "Mauritania": {
     "agricultural": 0.0318,
@@ -11115,7 +11216,8 @@
       18498444.444444444,
       18782555.555555556
     ],
-    "total_water": 11.4
+    "total_water_consumption": 0.6182,
+    "total_water_resources": 11.4
   },
   "Mauritius": {
     "agricultural": 0.02,
@@ -11224,7 +11326,8 @@
       1004222.2222222222,
       1000777.7777777778
     ],
-    "total_water": 2.751
+    "total_water_consumption": 65.594,
+    "total_water_resources": 2.751
   },
   "Mexico": {
     "agricultural": 7.825,
@@ -11333,7 +11436,8 @@
       176151222.2222222,
       176073000.0
     ],
-    "total_water": 461.9
+    "total_water_consumption": 20.305,
+    "total_water_resources": 461.9
   },
   "Mongolia": {
     "agricultural": 0.238,
@@ -11442,7 +11546,8 @@
       5093666.666666667,
       5113777.777777778
     ],
-    "total_water": 34.8
+    "total_water_consumption": 0.3107,
+    "total_water_resources": 34.8
   },
   "Morocco": {
     "agricultural": 0.212,
@@ -11551,7 +11656,8 @@
       50880000.0,
       50922000.0
     ],
-    "total_water": 29.0
+    "total_water_consumption": 2.351,
+    "total_water_resources": 29.0
   },
   "Mozambique": {
     "agricultural": 0.025,
@@ -11660,7 +11766,8 @@
       169832444.44444445,
       173293333.33333334
     ],
-    "total_water": 217.1
+    "total_water_consumption": 29.967,
+    "total_water_resources": 217.1
   },
   "Myanmar": {
     "agricultural": 0.4984,
@@ -11769,7 +11876,8 @@
       63026666.666666664,
       63002888.88888889
     ],
-    "total_water": 1168.0
+    "total_water_consumption": 4.0224,
+    "total_water_resources": 1168.0
   },
   "Namibia": {
     "agricultural": 0.014,
@@ -11878,7 +11986,8 @@
       6885777.777777778,
       6945888.888888889
     ],
-    "total_water": 39.91
+    "total_water_consumption": 9.407,
+    "total_water_resources": 39.91
   },
   "Nepal": {
     "agricultural": 0.0295,
@@ -11987,7 +12096,8 @@
       37172333.333333336,
       37090111.11111111
     ],
-    "total_water": 210.2
+    "total_water_consumption": 0.2373,
+    "total_water_resources": 210.2
   },
   "Netherlands": {
     "agricultural": 9.446,
@@ -12096,7 +12206,8 @@
       16258000.0,
       16244222.222222222
     ],
-    "total_water": 91.0
+    "total_water_consumption": 13.870000000000001,
+    "total_water_resources": 91.0
   },
   "New Zealand": {
     "agricultural": 1.184,
@@ -12205,7 +12316,8 @@
       6131111.111111111,
       6137666.666666667
     ],
-    "total_water": 327.0
+    "total_water_consumption": 3.1790000000000003,
+    "total_water_resources": 327.0
   },
   "Nicaragua": {
     "agricultural": 0.0736,
@@ -12314,7 +12426,8 @@
       8394777.777777778,
       8385888.888888889
     ],
-    "total_water": 164.5
+    "total_water_consumption": 1.0161,
+    "total_water_resources": 164.5
   },
   "Niger": {
     "agricultural": 0.0137,
@@ -12423,7 +12536,8 @@
       259708666.66666666,
       267647666.66666666
     ],
-    "total_water": 34.05
+    "total_water_consumption": 5.5854,
+    "total_water_resources": 34.05
   },
   "Nigeria": {
     "agricultural": 1.965,
@@ -12532,7 +12646,8 @@
       973601666.6666666,
       992802666.6666666
     ],
-    "total_water": 286.2
+    "total_water_consumption": 7.8099,
+    "total_water_resources": 286.2
   },
   "Norway": {
     "agricultural": 1.071,
@@ -12641,7 +12756,8 @@
       7450888.888888889,
       7463666.666666667
     ],
-    "total_water": 393.0
+    "total_water_consumption": 2.098,
+    "total_water_resources": 393.0
   },
   "Oman": {
     "agricultural": 0.019,
@@ -12750,7 +12866,8 @@
       7522222.222222222,
       7539444.444444444
     ],
-    "total_water": 1.4
+    "total_water_consumption": 172.553,
+    "total_water_resources": 1.4
   },
   "Pakistan": {
     "agricultural": 1.4,
@@ -12859,7 +12976,8 @@
       458793555.5555556,
       462325111.1111111
     ],
-    "total_water": 246.8
+    "total_water_consumption": 11.496,
+    "total_water_resources": 246.8
   },
   "Panama": {
     "agricultural": 0.01,
@@ -12968,7 +13086,8 @@
       7159444.444444444,
       7180222.222222222
     ],
-    "total_water": 139.3
+    "total_water_consumption": 0.592,
+    "total_water_resources": 139.3
   },
   "Papua New Guinea": {
     "agricultural": 0.1676,
@@ -13077,7 +13196,8 @@
       22305444.444444444,
       22512222.222222224
     ],
-    "total_water": 801.0
+    "total_water_consumption": 2.2881,
+    "total_water_resources": 801.0
   },
   "Paraguay": {
     "agricultural": 0.154,
@@ -13186,7 +13306,8 @@
       10258444.444444444,
       10270888.888888888
     ],
-    "total_water": 387.8
+    "total_water_consumption": 12.636,
+    "total_water_resources": 387.8
   },
   "Peru": {
     "agricultural": 0.289,
@@ -13295,7 +13416,8 @@
       46701333.333333336,
       46739333.333333336
     ],
-    "total_water": 1880.0
+    "total_water_consumption": 68.613,
+    "total_water_resources": 1880.0
   },
   "Philippines": {
     "agricultural": 8.254,
@@ -13404,7 +13526,8 @@
       200745000.0,
       201709000.0
     ],
-    "total_water": 479.0
+    "total_water_consumption": 15.591000000000001,
+    "total_water_resources": 479.0
   },
   "Poland": {
     "agricultural": 9.425,
@@ -13513,7 +13636,8 @@
       23457888.888888888,
       23345444.444444444
     ],
-    "total_water": 60.5
+    "total_water_consumption": 20.484,
+    "total_water_resources": 60.5
   },
   "Portugal": {
     "agricultural": 1.497,
@@ -13622,7 +13746,8 @@
       6884000.0,
       6859222.222222222
     ],
-    "total_water": 77.4
+    "total_water_consumption": 2.4716,
+    "total_water_resources": 77.4
   },
   "Puerto Rico": {
     "agricultural": 3.15,
@@ -13731,7 +13856,8 @@
       2445888.888888889,
       2430666.6666666665
     ],
-    "total_water": 7.1
+    "total_water_consumption": 4.3506,
+    "total_water_resources": 7.1
   },
   "Qatar": {
     "agricultural": 0.008,
@@ -13840,7 +13966,8 @@
       3656222.222222222,
       3654666.6666666665
     ],
-    "total_water": 0.058
+    "total_water_consumption": 16.142,
+    "total_water_resources": 0.058
   },
   "Republic of Korea": {
     "agricultural": 4.45,
@@ -13949,7 +14076,8 @@
       38303777.777777776,
       38199333.333333336
     ],
-    "total_water": 69.7
+    "total_water_consumption": 11.412,
+    "total_water_resources": 69.7
   },
   "Republic of Moldova": {
     "agricultural": 0.8825,
@@ -14058,7 +14186,8 @@
       2272111.111111111,
       2259444.4444444445
     ],
-    "total_water": 12.27
+    "total_water_consumption": 2.1635,
+    "total_water_resources": 12.27
   },
   "Romania": {
     "agricultural": 4.303,
@@ -14167,7 +14296,8 @@
       12610666.666666666,
       12564000.0
     ],
-    "total_water": 212.0
+    "total_water_consumption": 18.482999999999997,
+    "total_water_resources": 212.0
   },
   "Russian Federation": {
     "agricultural": 39.6,
@@ -14276,7 +14406,8 @@
       119101222.22222222,
       118989555.55555555
     ],
-    "total_water": 4525.0
+    "total_water_consumption": 53.102,
+    "total_water_resources": 4525.0
   },
   "Rwanda": {
     "agricultural": 0.0205,
@@ -14385,7 +14516,8 @@
       38322777.777777776,
       38750111.11111111
     ],
-    "total_water": 13.3
+    "total_water_consumption": 0.0821,
+    "total_water_resources": 13.3
   },
   "Saint Kitts and Nevis": {
     "agricultural": 0.0,
@@ -14494,7 +14626,8 @@
       59888.88888888889,
       59777.77777777778
     ],
-    "total_water": 0.024
+    "total_water_consumption": 0.0458,
+    "total_water_resources": 0.024
   },
   "Saint Lucia": {
     "agricultural": 0.0,
@@ -14603,7 +14736,8 @@
       144777.77777777778,
       144333.33333333334
     ],
-    "total_water": 0.3
+    "total_water_consumption": 0.0125,
+    "total_water_resources": 0.3
   },
   "Saint Vincent and the Grenadines": {
     "agricultural": 2e-06,
@@ -14712,7 +14846,8 @@
       96444.44444444444,
       96111.11111111111
     ],
-    "total_water": 0.1
+    "total_water_consumption": 20.838502,
+    "total_water_resources": 0.1
   },
   "Saudi Arabia": {
     "agricultural": 0.71,
@@ -14821,7 +14956,8 @@
       50787888.88888889,
       50891333.333333336
     ],
-    "total_water": 2.4
+    "total_water_consumption": 4.904999999999999,
+    "total_water_resources": 2.4
   },
   "Senegal": {
     "agricultural": 0.058,
@@ -14930,7 +15066,8 @@
       79462000.0,
       80888888.8888889
     ],
-    "total_water": 38.97
+    "total_water_consumption": 0.2727,
+    "total_water_resources": 38.97
   },
   "Sierra Leone": {
     "agricultural": 0.0457,
@@ -15039,7 +15176,8 @@
       24474111.111111112,
       24832222.222222224
     ],
-    "total_water": 160.0
+    "total_water_consumption": 0.2122,
+    "total_water_resources": 160.0
   },
   "Singapore": {
     "agricultural": 0.0076,
@@ -15148,7 +15286,8 @@
       5417333.333333333,
       5398666.666666667
     ],
-    "total_water": 0.6
+    "total_water_consumption": 2.3066000000000004,
+    "total_water_resources": 0.6
   },
   "Slovakia": {
     "agricultural": 0.0229,
@@ -15257,7 +15396,8 @@
       3881222.222222222,
       3868444.4444444445
     ],
-    "total_water": 50.1
+    "total_water_consumption": 0.6575,
+    "total_water_resources": 50.1
   },
   "Slovenia": {
     "agricultural": 0.0036,
@@ -15366,7 +15506,8 @@
       1620444.4444444445,
       1618000.0
     ],
-    "total_water": 31.87
+    "total_water_consumption": 1.1556,
+    "total_water_resources": 31.87
   },
   "Somalia": {
     "agricultural": 3.281,
@@ -15475,7 +15616,8 @@
       105689777.77777778,
       108316777.77777778
     ],
-    "total_water": 14.7
+    "total_water_consumption": 3.298,
+    "total_water_resources": 14.7
   },
   "South Africa": {
     "agricultural": 9.69,
@@ -15584,7 +15726,8 @@
       81783888.8888889,
       81924888.8888889
     ],
-    "total_water": 51.35
+    "total_water_consumption": 15.5,
+    "total_water_resources": 51.35
   },
   "South Sudan": {
     "agricultural": 0.24,
@@ -15693,7 +15836,8 @@
       54075333.333333336,
       54990000.0
     ],
-    "total_water": 49.5
+    "total_water_consumption": 0.6579999999999999,
+    "total_water_resources": 49.5
   },
   "Spain": {
     "agricultural": 25.47,
@@ -15802,7 +15946,8 @@
       35837888.88888889,
       35748666.666666664
     ],
-    "total_water": 111.5
+    "total_water_consumption": 37.35,
+    "total_water_resources": 111.5
   },
   "Sri Lanka": {
     "agricultural": 11.31,
@@ -15911,7 +16056,8 @@
       18467222.222222224,
       18402555.555555556
     ],
-    "total_water": 52.8
+    "total_water_consumption": 12.946,
+    "total_water_resources": 52.8
   },
   "Sudan": {
     "agricultural": 25.91,
@@ -16020,7 +16166,8 @@
       169806888.8888889,
       172497333.33333334
     ],
-    "total_water": 37.8
+    "total_water_consumption": 26.935,
+    "total_water_resources": 37.8
   },
   "Suriname": {
     "agricultural": 0.4311,
@@ -16129,7 +16276,8 @@
       680777.7777777778,
       680888.8888888889
     ],
-    "total_water": 99.0
+    "total_water_consumption": 0.6159,
+    "total_water_resources": 99.0
   },
   "Sweden": {
     "agricultural": 0.098,
@@ -16238,7 +16386,8 @@
       12510444.444444444,
       12534555.555555556
     ],
-    "total_water": 174.0
+    "total_water_consumption": 2.689,
+    "total_water_resources": 174.0
   },
   "Switzerland": {
     "agricultural": 0.1601,
@@ -16347,7 +16496,8 @@
       9737777.777777778,
       9743222.222222222
     ],
-    "total_water": 53.5
+    "total_water_consumption": 1.7198000000000002,
+    "total_water_resources": 53.5
   },
   "Syrian Arab Republic": {
     "agricultural": 14.67,
@@ -16456,7 +16606,8 @@
       45425555.55555555,
       45643222.222222224
     ],
-    "total_water": 16.8
+    "total_water_consumption": 16.7604,
+    "total_water_resources": 16.8
   },
   "Tajikistan": {
     "agricultural": 10.44,
@@ -16565,7 +16716,8 @@
       22594555.555555556,
       22780333.333333332
     ],
-    "total_water": 21.91
+    "total_water_consumption": 11.4948,
+    "total_water_resources": 21.91
   },
   "Thailand": {
     "agricultural": 51.79,
@@ -16674,7 +16826,8 @@
       51819222.222222224,
       51621555.55555555
     ],
-    "total_water": 438.6
+    "total_water_consumption": 57.306,
+    "total_water_resources": 438.6
   },
   "Timor-Leste": {
     "agricultural": 1.071,
@@ -16783,7 +16936,8 @@
       6561777.777777778,
       6708888.888888889
     ],
-    "total_water": 8.215
+    "total_water_consumption": 1.172,
+    "total_water_resources": 8.215
   },
   "Togo": {
     "agricultural": 0.076,
@@ -16892,7 +17046,8 @@
       30795333.333333332,
       31254333.333333332
     ],
-    "total_water": 14.7
+    "total_water_consumption": 0.22299999999999998,
+    "total_water_resources": 14.7
   },
   "Trinidad and Tobago": {
     "agricultural": 0.0167,
@@ -17001,7 +17156,8 @@
       1100333.3333333333,
       1097222.2222222222
     ],
-    "total_water": 3.84
+    "total_water_consumption": 0.3832,
+    "total_water_resources": 3.84
   },
   "Tunisia": {
     "agricultural": 2.644,
@@ -17110,7 +17266,8 @@
       14407888.888888888,
       14405333.333333334
     ],
-    "total_water": 4.615
+    "total_water_consumption": 3.305,
+    "total_water_resources": 4.615
   },
   "Turkey": {
     "agricultural": 34.0,
@@ -17219,7 +17376,8 @@
       94796000.0,
       94661666.66666667
     ],
-    "total_water": 211.6
+    "total_water_consumption": 44.5,
+    "total_water_resources": 211.6
   },
   "Turkmenistan": {
     "agricultural": 26.36,
@@ -17328,7 +17486,8 @@
       10074444.444444444,
       10118333.333333334
     ],
-    "total_water": 24.77
+    "total_water_consumption": 27.953999999999997,
+    "total_water_resources": 24.77
   },
   "Uganda": {
     "agricultural": 0.259,
@@ -17437,7 +17596,8 @@
       309358111.1111111,
       316835000.0
     ],
-    "total_water": 60.1
+    "total_water_consumption": 0.637,
+    "total_water_resources": 60.1
   },
   "Ukraine": {
     "agricultural": 4.454,
@@ -17546,7 +17706,8 @@
       28444111.111111112,
       28355333.333333332
     ],
-    "total_water": 175.3
+    "total_water_consumption": 14.846,
+    "total_water_resources": 175.3
   },
   "United Arab Emirates": {
     "agricultural": 3.312,
@@ -17655,7 +17816,8 @@
       13253222.222222222,
       13257888.888888888
     ],
-    "total_water": 0.15
+    "total_water_consumption": 3.9979999999999998,
+    "total_water_resources": 0.15
   },
   "United Kingdom": {
     "agricultural": 1.049,
@@ -17764,7 +17926,8 @@
       77604777.77777778,
       77677000.0
     ],
-    "total_water": 147.0
+    "total_water_consumption": 8.108,
+    "total_water_resources": 147.0
   },
   "United Republic of Tanzania": {
     "agricultural": 4.632,
@@ -17873,7 +18036,8 @@
       362401000.0,
       369901666.6666667
     ],
-    "total_water": 96.27
+    "total_water_consumption": 5.184,
+    "total_water_resources": 96.27
   },
   "United States of America": {
     "agricultural": 175.1,
@@ -17982,7 +18146,8 @@
       418706222.2222222,
       419306666.6666667
     ],
-    "total_water": 3069.0
+    "total_water_consumption": 485.59000000000003,
+    "total_water_resources": 3069.0
   },
   "Uruguay": {
     "agricultural": 3.17,
@@ -18091,7 +18256,8 @@
       3528555.5555555555,
       3523333.3333333335
     ],
-    "total_water": 172.2
+    "total_water_consumption": 3.66,
+    "total_water_resources": 172.2
   },
   "Uzbekistan": {
     "agricultural": 50.4,
@@ -18200,7 +18366,8 @@
       43996222.222222224,
       44006555.55555555
     ],
-    "total_water": 48.87
+    "total_water_consumption": 56.0,
+    "total_water_resources": 48.87
   },
   "Venezuela (Bolivarian Republic of)": {
     "agricultural": 16.71,
@@ -18309,7 +18476,8 @@
       47059000.0,
       47104666.666666664
     ],
-    "total_water": 1325.0
+    "total_water_consumption": 22.6263,
+    "total_water_resources": 1325.0
   },
   "Viet Nam": {
     "agricultural": 77.75,
@@ -18418,7 +18586,8 @@
       109505000.0,
       109372333.33333333
     ],
-    "total_water": 884.1
+    "total_water_consumption": 82.03,
+    "total_water_resources": 884.1
   },
   "Yemen": {
     "agricultural": 3.235,
@@ -18527,7 +18696,8 @@
       86810000.0,
       87905666.66666667
     ],
-    "total_water": 2.1
+    "total_water_consumption": 3.565,
+    "total_water_resources": 2.1
   },
   "Zambia": {
     "agricultural": 1.152,
@@ -18636,6 +18806,7 @@
       104173555.55555555,
       106245888.8888889
     ],
-    "total_water": 104.8
+    "total_water_consumption": 1.572,
+    "total_water_resources": 104.8
   }
 }
