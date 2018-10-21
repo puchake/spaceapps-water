@@ -1,0 +1,258 @@
+{
+  "Bath": {
+    "avg": 1.0,
+    "liters": 130.0,
+    "max": 14,
+    "min": 0,
+    "time": "weekly",
+    "unit": "per usage"
+  },
+  "Bed Sheet (cotton) ": {
+    "avg": 1.0,
+    "liters": 10746.784,
+    "max": 10,
+    "min": 0,
+    "time": "yearly",
+    "unit": "per unit"
+  },
+  "Beef": {
+    "avg": 1.5,
+    "liters": 15415.0,
+    "max": 10,
+    "min": 0,
+    "time": "monthly",
+    "unit": "per kilo"
+  },
+  "Books ": {
+    "avg": 10.0,
+    "liters": 1625.0,
+    "max": 50,
+    "min": 0,
+    "time": "yearly",
+    "unit": "per unit "
+  },
+  "Bread": {
+    "avg": 5.0,
+    "liters": 1608.0,
+    "max": 4,
+    "min": 0,
+    "time": "monthly",
+    "unit": "per kilo"
+  },
+  "Brushing teeth, tap running": {
+    "avg": 3.0,
+    "liters": 9.0,
+    "max": 5,
+    "min": 0,
+    "time": "daily",
+    "unit": "per usage"
+  },
+  "Car": {
+    "avg": 0.2,
+    "liters": 80000.0,
+    "max": 10,
+    "min": 0,
+    "time": "yearly",
+    "unit": "per unit"
+  },
+  "Cereals": {
+    "avg": 2.0,
+    "liters": 1644.0,
+    "max": 5,
+    "min": 0,
+    "time": "monthly",
+    "unit": "per kilo"
+  },
+  "Cheese ": {
+    "avg": 1.0,
+    "liters": 5000.0,
+    "max": 10,
+    "min": 0,
+    "time": "monthly",
+    "unit": "per kilo"
+  },
+  "Dish-washing by hand, tap running": {
+    "avg": 1.0,
+    "liters": 60.0,
+    "max": 10,
+    "min": 0,
+    "time": "weekly",
+    "unit": "per usage"
+  },
+  "Dishwasher": {
+    "avg": 1.0,
+    "liters": 30.0,
+    "max": 10,
+    "min": 0,
+    "time": "weekly",
+    "unit": "per usage"
+  },
+  "Food preparation": {
+    "avg": 2.0,
+    "liters": 17.0,
+    "max": 5,
+    "min": 0,
+    "time": "daily",
+    "unit": "per usage"
+  },
+  "Fruits": {
+    "avg": 4.0,
+    "liters": 967.0,
+    "max": 20,
+    "min": 0,
+    "time": "monthly",
+    "unit": "per kilo"
+  },
+  "Hamburger": {
+    "avg": 3.0,
+    "liters": 2498.37,
+    "max": 20,
+    "min": 0,
+    "time": "monthly",
+    "unit": "per unit"
+  },
+  "Hands washing, tap running": {
+    "avg": 10.0,
+    "liters": 7.0,
+    "max": 10,
+    "min": 0,
+    "time": "daily",
+    "unit": "per usage"
+  },
+  "Jeans (cotton) ": {
+    "avg": 0.5,
+    "liters": 7979.648,
+    "max": 10,
+    "min": 0,
+    "time": "monthly",
+    "unit": "per unit"
+  },
+  "Laundry machine": {
+    "avg": 1.0,
+    "liters": 75.0,
+    "max": 7,
+    "min": 0,
+    "time": "weekly",
+    "unit": "per usage"
+  },
+  "Leather Shoes": {
+    "avg": 1.0,
+    "liters": 13725.9,
+    "max": 10,
+    "min": 0,
+    "time": "yearly",
+    "unit": "per unit"
+  },
+  "Lettuce": {
+    "avg": 1.0,
+    "liters": 237.0,
+    "max": 10,
+    "min": 0,
+    "time": "monthly",
+    "unit": "per kilo"
+  },
+  "Nuts": {
+    "avg": 1.0,
+    "liters": 9063.0,
+    "max": 10,
+    "min": 0,
+    "time": "monthly",
+    "unit": "per kilo"
+  },
+  "Oil": {
+    "avg": 0.2,
+    "liters": 2364.0,
+    "max": 10,
+    "min": 0,
+    "time": "monthly",
+    "unit": "per kilo"
+  },
+  "Olives": {
+    "avg": 0.2,
+    "liters": 3015.0,
+    "max": 2,
+    "min": 0,
+    "time": "monthly",
+    "unit": "per kilo"
+  },
+  "Pork": {
+    "avg": 1.5,
+    "liters": 4177.0,
+    "max": 4,
+    "min": 0,
+    "time": "monthly",
+    "unit": "per kilo"
+  },
+  "Potatoes": {
+    "avg": 7.5,
+    "liters": 5988.0,
+    "max": 4,
+    "min": 0,
+    "time": "monthly",
+    "unit": "per kilo"
+  },
+  "Shaving, tap running": {
+    "avg": 3.0,
+    "liters": 15.0,
+    "max": 7,
+    "min": 0,
+    "time": "weekly",
+    "unit": "per usage"
+  },
+  "Shower (per minute)": {
+    "avg": 6.0,
+    "liters": 60.0,
+    "max": 14,
+    "min": 0,
+    "time": "weekly",
+    "unit": "per usage"
+  },
+  "Smartphone (mobile) ": {
+    "avg": 1.0,
+    "liters": 12075.46,
+    "max": 10,
+    "min": 0,
+    "time": "yearly",
+    "unit": "per unit"
+  },
+  "Sugar": {
+    "avg": 1.0,
+    "liters": 197.0,
+    "max": 10,
+    "min": 0,
+    "time": "monthly",
+    "unit": "per kilo"
+  },
+  "Sweetcorn": {
+    "avg": 0.5,
+    "liters": 1222.0,
+    "max": 10,
+    "min": 0,
+    "time": "monthly",
+    "unit": "per kilo"
+  },
+  "T-shirt (cotton) ": {
+    "avg": 1.0,
+    "liters": 2494.59,
+    "max": 20,
+    "min": 0,
+    "time": "monthly",
+    "unit": "per unit"
+  },
+  "Toilet (per flush)": {
+    "avg": 15.0,
+    "liters": 12.0,
+    "max": 30,
+    "min": 0,
+    "time": "daily",
+    "unit": "per usage"
+  },
+  "Tomatoes": {
+    "avg": 2.0,
+    "liters": 214.0,
+    "max": 5,
+    "min": 0,
+    "time": "monthly",
+    "unit": "per kilo"
+  }
+}

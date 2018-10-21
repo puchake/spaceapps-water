@@ -1,21 +1,12 @@
-import csv
 import json
+
+from bin.common import load_csv
 
 
 CONSUMPTION_CSV_PATH = "../data/prepared_data.csv"
 POPULATION_CSV_PATH = "../data/populacy.csv"
 RESOURCES_CSV_PATH = "../data/rwr.csv"
 OUTPUT_FILE_PATH = "../web/static/data/countries.json"
-
-
-def load_csv(csv_path):
-    rows = []
-    with open(csv_path) as file:
-        csv_reader = csv.reader(file)
-        next(csv_reader)
-        for row in csv_reader:
-            rows.append(row)
-    return rows
 
 
 if __name__ == "__main__":
@@ -29,7 +20,8 @@ if __name__ == "__main__":
         consumption_dict[country_name] = {
             "agricultural": float(row[1]),
             "industrial": float(row[2]),
-            "municipal": float(row[3])
+            "municipal": float(row[3]),
+            "total_water_consumption": sum([float(value) for value in row[1:4]])
         }
 
     population_dict = {}
@@ -44,7 +36,7 @@ if __name__ == "__main__":
         country_name = row[0]
         total_water = float(row[5])
         resources_dict[country_name] = {
-            "total_water": total_water
+            "total_water_resources": total_water
         }
 
     # Merge dicts

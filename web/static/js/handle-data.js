@@ -3,22 +3,42 @@ function loadCountries() {
         window.countriesJson = data;
         console.log("Countries json loaded.");
         populateSelect("countrySelect", window.countriesJson);
+        setWaterData(defaultCountry);
     });
 }
 
-function setPopulationData(countryName) {
+function loadProducts() {
+    $.getJSON('static/data/products.json', function(data) {
+        window.productsJson = data;
+        console.log("Products json loaded.");
+        populateSelect("variable-type", window.productsJson);
+    });
+}
+
+function setWaterData(countryName) {
     console.log("Setting population data to population of " + countryName);
-    let datapoints = window.countriesJson[countryName]["population"];
+    let referencePopulation = window.countriesJson[countryName]["population"]
+        [16];
+    let consumption_datapoints = window.countriesJson[countryName]
+        ["population"].map(
+            (population) => population / referencePopulation
+                * window.countriesJson[countryName]["total_water_consumption"]
+        );
+    let resources_datapoints = Array.from(
+        {
+            length: consumption_datapoints.length
+        }, (v, k) => window.countriesJson[countryName]["total_water_resources"]
+    );
 
     let startYear = 2000;
     let labels = Array.from(
         {
-            length: datapoints.length
+            length: consumption_datapoints.length
         }, (v, k) => startYear + k);
 
     window.graphData = {
         'labels': labels,
-        'data': datapoints
+        'data': [consumption_datapoints, resources_datapoints]
     };
 
     updateChart();
@@ -40,8 +60,6 @@ function populateSelect(selectId, jsonDict) {
 
         select.appendChild(option);
     }
-
-    setPopulationData(defaultCountry);
 }
 
 const createNewElement = function () {
@@ -71,6 +89,7 @@ const closeElement = function () {
 const dataInit = function () {
     createNewElement();
     loadCountries();
+    loadProducts();
 };
 
 window.graphData = {
