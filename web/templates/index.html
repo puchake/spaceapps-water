@@ -12,7 +12,7 @@
     <script defer src="static/js/Chart.bundle.min.js"></script>
     <script defer src="static/js/jquery-3.3.1.min.js"></script>
     <script defer src="static/js/font-awesome-5.4.1.js"></script>
-    <script defer src="static/js/bulma-slider.min.js"></script>
+    <script defer src="static/js/bulma-slider.js"></script>
 
     <script defer src="static/js/handle-data.js"></script>
     <script defer src="static/js/plot-data.js"></script>
@@ -87,9 +87,14 @@
             <div class="is-fullwidth">
                 <div class="is-fullwidth">
                     <span id="label">Title</span>
-                    <a class="delete is-pulled-right" onclick="closeElement()"></a>
+                    <a class="delete is-pulled-right"
+                       onclick="closeElement()"></a>
                 </div>
-                <input class="slider is-fullwidth" step="1" min="0" max="5" value="0" type="range">
+                <span>
+                    <input id="sliderWithValue" class="slider has-output is-fullwidth" step="1"
+                           min="0" max="5" value="0" type="range">
+                    <output class="is-vcentered" for="sliderWithValue">0</output>
+                </span>
             </div>
         </div>
     </div>

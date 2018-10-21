@@ -56,6 +56,8 @@ const createNewElement = function () {
     let title = clone.querySelector('#label');
     title.textContent = variableType;
 
+    enableSlider(clone.querySelector('input'));
+
     container.appendChild(clone);
 };
 
