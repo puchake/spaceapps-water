@@ -42,7 +42,7 @@ let questions = [
     },
     {
         title: `If everyone were you, Afghanistan would be dead by around ${2070 + getRandomInt(20)}.`,
-        type: 'startMusic'
+        type: 'startDoom'
     },
     {
         title: 'See how you can speed up the apocalypse.',
@@ -77,7 +77,11 @@ function nextQuestion() {
         case 'slider':
             templateType = 'slider-template';
             break;
-        case 'startMusic':
+        case 'startDoom':
+            const nav = $('nav');
+            nav.show();
+            nav.addClass('is-dark');
+            $('#questionHero').addClass('is-dark');
             $('body').append('<iframe width="1" height="1"  src="//www.youtube.com/embed/3yh2InVsFag?autoplay=1&loop=1&playlist=3yh2InVsFag" frameborder="0" allowfullscreen>')
             return;
         case 'text':
