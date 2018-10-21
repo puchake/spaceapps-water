@@ -68,7 +68,7 @@ const closeElement = function () {
     parentWindow.remove();
 };
 
-const init = function () {
+const dataInit = function () {
     createNewElement();
     loadCountries();
 };
@@ -77,4 +77,4 @@ window.graphData = {
     'data': [],
     'labels': []
 };
-window.onload = init;
+window.addEventListener('load', dataInit, false);

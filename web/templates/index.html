@@ -16,10 +16,11 @@
 
     <script defer src="static/js/handle-data.js"></script>
     <script defer src="static/js/plot-data.js"></script>
+    <script defer src="static/js/questions.js"></script>
 </head>
 <body>
 <!-- Header section -->
-<nav class="navbar is-danger" role="navigation" aria-label="main navigation">
+<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <div class="navbar-item">
             <span class="icon is-medium">
@@ -29,56 +30,79 @@
         <div class="navbar-item is-size-4 is-uppercase has-text-weight-bold">
             Death clock
         </div>
+        <a class="navbar-item" onclick="$('#detailView').fadeToggle()">
+            Hide details TODO REMOVE
+        </a>
     </div>
 </nav>
 
-<!-- Graph section -->
-<section>
-    <div class="container" id="chartContainer">
-        <canvas id="chart"></canvas>
+<!-- Hero with questions -->
+<section class="hero is-dark is-fullheight-with-navbar">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title" id="questionTitle">
+                Question title
+            </h1>
+            <div class="subtitle container" id="questionContent">
+                <!-- place for content -->
+            </div>
+            <a class="button" onclick="nextQuestion()">Next</a>
+        </div>
     </div>
 </section>
 
-<!-- Slider section -->
-<section>
-    <div class="container">
-        <div class="columns">
-            <div class="column">
-                <div class="box is-fullwidth">
-                    <div class="control has-icons-left">
-                        <div class="select is-rounded is-fullwidth">
-                            <select id="countrySelect" title="Country" onchange="setPopulationData(this.value)">
-                            </select>
-                        </div>
-                        <span class="icon is-left">
-                            <i class="fas fa-globe"></i>
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="box is-fullwidth">
-                    <div class="columns">
-                        <div class="column">
-                            <div class="select is-fullwidth">
-                                <select title="Variable type" id="variable-type">
-                                    <option>Twoja stara</option>
-                                    <option>Twój stary</option>
+<section id="detailView">
+    <!-- Graph section -->
+    <section>
+        <div class="container" id="chartContainer">
+            <canvas id="chart"></canvas>
+        </div>
+    </section>
+
+    <!-- Slider section -->
+    <section>
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="box is-fullwidth">
+                        <div class="control has-icons-left">
+                            <div class="select is-rounded is-fullwidth">
+                                <select id="countrySelect" title="Country"
+                                        onchange="setPopulationData(this.value)">
                                 </select>
                             </div>
+                            <span class="icon is-left">
+                            <i class="fas fa-globe"></i>
+                        </span>
                         </div>
-                        <div class="column">
-                            <a class="button is-fullwidth" onclick="createNewElement()">
-                        Add new variable</a>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="box is-fullwidth">
+                        <div class="columns">
+                            <div class="column">
+                                <div class="select is-fullwidth">
+                                    <select title="Variable type"
+                                            id="variable-type">
+                                        <option>Twoja stara</option>
+                                        <option>Twój stary</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <a class="button is-fullwidth"
+                                   onclick="createNewElement()">
+                                    Add new variable</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="columns is-multiline" id="variables-container">
+                <!-- here be dragons -->
+            </div>
         </div>
-        <div class="columns is-multiline" id="variables-container">
-            <!-- here be dragons -->
-        </div>
-    </div>
+    </section>
 </section>
 
 <template id="variable-template">
@@ -97,6 +121,25 @@
                 </span>
             </div>
         </div>
+    </div>
+</template>
+
+<template id="slider-template">
+    <input id="questionSlider" class="slider" step="1" min="0" max="5"
+           value="0" type="range">
+    <output class="is-vcentered" for="questionSlider">0</output>
+</template>
+
+<template id="yesno-template">
+    <div class="control has-text-centered">
+        <label class="radio">
+            <input type="radio" name="answer">
+            Yes
+        </label>
+        <label class="radio">
+            <input type="radio" name="answer">
+            No
+        </label>
     </div>
 </template>
 </body>
