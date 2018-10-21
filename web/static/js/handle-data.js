@@ -1,14 +1,50 @@
-function loadPopulation() {
-    $.getJSON('static/data/population.json', function(data) {
-        window.populationJson = data;
-        console.log("Population json loaded.");
-        populateCountrySelect();
+const monthLabel = function (month) {
+    if (month === 0) {
+        return 'today';
+    } else if (month === 1) {
+        return '1 month'
+    } else {
+        return `${month} months`;
+    }
+};
+
+const createData = function (population) {
+    let datapoints = [];
+    let labels = [];
+
+    let index = 0;
+    let lastPopulation = population;
+    let penultimatePoint = population;
+
+    do {
+        penultimatePoint = lastPopulation;
+        datapoints.push(lastPopulation);
+
+        lastPopulation *= 0.5;
+        lastPopulation -= 100000;
+        lastPopulation = Math.max(lastPopulation, 0);
+
+        labels.push(monthLabel(index));
+        index++;
+    } while (penultimatePoint > 0 && datapoints.length < 15);
+
+    return {
+        'labels': labels,
+        'data': datapoints
+    }
+};
+
+function loadCountries() {
+    $.getJSON('static/data/countries.json', function(data) {
+        window.countriesJson = data;
+        console.log("Countries json loaded.");
+        populateSelect("countrySelect", window.countriesJson);
     });
 }
 
 function setPopulationData(countryName) {
     console.log("Setting population data to population of " + countryName);
-    let datapoints = window.populationJson[countryName];
+    let datapoints = window.countriesJson[countryName]["population"];
 
     let startYear = 2000;
     let labels = Array.from(
@@ -26,10 +62,10 @@ function setPopulationData(countryName) {
 
 const defaultCountry = 'Ghana';
 
-function populateCountrySelect() {
-    let select = document.getElementById('countrySelect');
+function populateSelect(selectId, jsonDict) {
+    let select = document.getElementById(selectId);
 
-    for(let element in window.populationJson) {
+    for(let element in jsonDict) {
         const option = document.createElement('option');
         option.value = element;
         option.innerHTML = element;
@@ -68,7 +104,7 @@ const closeElement = function () {
 
 const init = function () {
     createNewElement();
-    loadPopulation();
+    loadCountries();
 };
 
 window.graphData = {
