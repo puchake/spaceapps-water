@@ -50,7 +50,7 @@ let config = {
                 ticks: {
                     suggestedMin: 0,
                     callback: function (value) {
-                        return value.toExponential(1);
+                        return value;
                     }
                 }
             }]

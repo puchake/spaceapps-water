@@ -87,7 +87,6 @@ const closeElement = function () {
 };
 
 const dataInit = function () {
-    createNewElement();
     loadCountries();
     loadProducts();
 };
