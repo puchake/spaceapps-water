@@ -45,7 +45,11 @@ let questions = [
         type: 'startDoom'
     },
     {
-        title: 'See how you can speed up the apocalypse.',
+        title: "That's 20 million people. Just as many as have been killed in World War I.",
+        type: 'text'
+    },
+    {
+        title: 'See if you can change the future.',
         type: 'text'
     },
     {
