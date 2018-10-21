@@ -82,7 +82,7 @@ function nextQuestion() {
             nav.show();
             nav.addClass('is-dark');
             $('#questionHero').addClass('is-dark');
-            $('body').append('<iframe width="1" height="1"  src="//www.youtube.com/embed/3yh2InVsFag?autoplay=1&loop=1&playlist=3yh2InVsFag" frameborder="0" allowfullscreen>')
+            $('body').append('<iframe width="1" height="1"  src="//www.youtube.com/embed/3yh2InVsFag?autoplay=1&loop=1&playlist=3yh2InVsFag" frameborder="0" allowfullscreen>');
             return;
         case 'text':
             return;
