@@ -45,7 +45,7 @@ function setWaterData(countryName) {
     reloadModifiers();
 }
 
-const defaultCountry = 'Ghana';
+const defaultCountry = 'Afghanistan';
 
 function populateSelect(selectId, jsonDict) {
     let select = document.getElementById(selectId);
