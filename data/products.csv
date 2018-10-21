@@ -1,7 +1,7 @@
 Product,liters,,min value,max value,time,avg
 Car,80000,per unit,0,10,yearly,0.2
-Leather Shoes,13725.9,per unit,0,10,yearly,1.0
-Smartphone (mobile) ,12075.46,per unit,0,10,yearly,1.0
+Leather Shoes,13725.9,per unit,0,10,yearly,1
+Smartphone (mobile) ,12075.46,per unit,0,10,yearly,1
 Bed Sheet (cotton) ,10746.784,per unit,0,10,yearly,1
 Jeans (cotton) ,7979.648,per unit,0,10,monthly,0.5
 T-shirt (cotton) ,2494.59,per unit,0,20,monthly,1
@@ -31,3 +31,5 @@ Laundry machine,75,per usage,0,7,weekly,1
 Shower (per minute),60,per usage,0,14,weekly,6
 Toilet (per flush),12,per usage,0,30,daily,15
 Books ,1625,per unit ,0,50,yearly,10
+Fuel car ,80,per km,0,100000,yearly,13000
+Bio-fuel car ,15,per km ,0,100000,yearly,13000
