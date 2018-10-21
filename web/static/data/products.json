@@ -23,6 +23,14 @@
     "time": "monthly",
     "unit": "per kilo"
   },
+  "Bio-fuel car ": {
+    "avg": 13000.0,
+    "liters": 15.0,
+    "max": 100000,
+    "min": 0,
+    "time": "yearly",
+    "unit": "per km "
+  },
   "Books ": {
     "avg": 10.0,
     "liters": 1625.0,
@@ -102,6 +110,14 @@
     "min": 0,
     "time": "monthly",
     "unit": "per kilo"
+  },
+  "Fuel car ": {
+    "avg": 13000.0,
+    "liters": 80.0,
+    "max": 100000,
+    "min": 0,
+    "time": "yearly",
+    "unit": "per km"
   },
   "Hamburger": {
     "avg": 3.0,
@@ -254,5 +270,21 @@
     "min": 0,
     "time": "monthly",
     "unit": "per kilo"
+  },
+  "drink with straw (for straw)": {
+    "avg": 1.0,
+    "liters": 0.2,
+    "max": 10,
+    "min": 0,
+    "time": "weekly",
+    "unit": "per drink"
+  },
+  "education reform, per one person": {
+    "avg": 0.0,
+    "liters": 36000.0,
+    "max": 2,
+    "min": 0,
+    "time": "decennially",
+    "unit": "per reform"
   }
 }

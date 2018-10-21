@@ -33,3 +33,5 @@ Toilet (per flush),12,per usage,0,30,daily,15
 Books ,1625,per unit ,0,50,yearly,10
 Fuel car ,80,per km,0,100000,yearly,13000
 Bio-fuel car ,15,per km ,0,100000,yearly,13000
+"education reform, per one person",36000,per reform,0,2,decennially,0
+drink with straw (for straw),0.2,per drink,0,10,weekly,1

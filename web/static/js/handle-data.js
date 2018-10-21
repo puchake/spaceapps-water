@@ -68,6 +68,9 @@ const sumModifiers = function () {
     for (let element in window.waterModifiers) {
         let modifier = window.waterModifiers[element];
         let timeMultiplier = 1;
+        if (modifier.timeUnit === "decennially") {
+            timeMultiplier = 0.1;
+        }
         if (modifier.timeUnit === "monthly") {
             timeMultiplier = 12;
         }
@@ -109,7 +112,8 @@ const reloadModifiers = function () {
 
 const applyWaterModifierWithName = function (value, name) {
     let product = window.productsJson[name];
-    applyWaterModifier(name, product.avg, value, product.liters, product.time);
+    applyWaterModifier(name, product.avg, Number(value), product.liters,
+                       product.time);
 };
 
 const applyWaterModifier = function (name, avg, current, multiplier, timeUnit) {
@@ -121,6 +125,9 @@ const createNewElement = function () {
     const variableTypeSelect = document.querySelector('#variable-type');
     const variableType = variableTypeSelect
         .options[variableTypeSelect.selectedIndex].value;
+    if (variableType in window.waterModifiers) {
+        return;
+    }
 
     const template = document.querySelector('#variable-template');
     const container = document.querySelector('#variables-container');
