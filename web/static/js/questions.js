@@ -1,27 +1,47 @@
-const dummyYesNoCallback = function(x) {
-    console.log('Called yesno callback with ' + x);
-};
-
-const dummySliderCallback = function(x) {
-    console.log('Called slider callback with ' + x);
-};
+function getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+}
 
 let questionIndex = 0;
 let questions = [
     {
         title: 'Do you drink water?',
         type: 'yesno',
-        callback: dummyYesNoCallback
     },
     {
-        title: 'How much water per day?',
-        type: 'slider',
-        min: 0,
-        max: 5,
-        callback: dummySliderCallback
+        title: 'Do you have any car?',
+        type: 'yesno',
     },
     {
-        title: 'If everyone were you, Afghanistan would be dead by 2084.',
+        title: 'Do you have a phone?',
+        type: 'yesno',
+    },
+    {
+        title: 'Do you wear clothes?',
+        type: 'yesno',
+    },
+    {
+        title: 'Do you like hamburgers?',
+        type: 'yesno',
+    },
+    {
+        title: 'Do you use water to wash yourself?',
+        type: 'yesno',
+    },
+    {
+        title: 'Do you go to the toilet?',
+        type: 'yesno',
+    },
+    {
+        title: 'Do you read?',
+        type: 'yesno',
+    },
+    {
+        title: 'Do you drive car with bio fuels?',
+        type: 'yesno',
+    },
+    {
+        title: `If everyone were you, Afghanistan would be dead by around ${2070 + getRandomInt(20)}.`,
         type: 'text'
     },
     {
@@ -68,7 +88,8 @@ function nextQuestion() {
             return;
     }
 
-    const template = document.querySelector(`#${templateType}`);
+    const template = document.querySelector(`#${templateType}`
+);
     let clone = document.importNode(template.content, true);
 
     if (question.type === 'slider') {
