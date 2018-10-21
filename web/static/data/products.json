@@ -95,6 +95,14 @@
     "time": "weekly",
     "unit": "per usage"
   },
+  "Drink water": {
+    "avg": 2.0,
+    "liters": 1.0,
+    "max": 10,
+    "min": 0,
+    "time": "daily",
+    "unit": "per liter"
+  },
   "Food preparation": {
     "avg": 2.0,
     "liters": 17.0,

@@ -35,3 +35,4 @@ Fuel car ,80,per km,0,100000,yearly,13000
 Bio-fuel car ,15,per km ,0,100000,yearly,13000
 "education reform, per one person",36000,per reform,0,2,decennially,0
 drink with straw (for straw),0.2,per drink,0,10,weekly,1
+Drink water,1,per liter,0,10,daily,2
