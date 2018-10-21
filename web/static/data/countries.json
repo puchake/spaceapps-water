@@ -7920,9 +7920,9 @@
     "total_water_resources": 104.0
   },
   "Iceland": {
-    "agricultural": 0.198,
-    "industrial": 0.08,
-    "municipal": 688.0,
+    "agricultural": 0.0003,
+    "industrial": 0.198,
+    "municipal": 0.08,
     "population": [
       280000.0,
       282000.0,
@@ -8026,7 +8026,7 @@
       394333.3333333333,
       394333.3333333333
     ],
-    "total_water_consumption": 688.278,
+    "total_water_consumption": 0.2783,
     "total_water_resources": 170.0
   },
   "India": {

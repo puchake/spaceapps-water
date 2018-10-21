@@ -16,6 +16,7 @@ function loadProducts() {
 }
 
 function setWaterData(countryName) {
+    window.countryName = countryName;
     console.log("Setting population data to population of " + countryName);
     let referencePopulation = window.countriesJson[countryName]["population"]
         [16];
@@ -41,7 +42,7 @@ function setWaterData(countryName) {
         'data': [consumption_datapoints, resources_datapoints]
     };
 
-    updateChart();
+    reloadModifiers();
 }
 
 const defaultCountry = 'Ghana';
@@ -62,6 +63,60 @@ function populateSelect(selectId, jsonDict) {
     }
 }
 
+const sumModifiers = function() {
+    litersSum = 0;
+    for(let element in window.waterModifiers) {
+        let modifier = window.waterModifiers[element];
+        let timeMultiplier = 1;
+        if (modifier.timeUnit === "monthly") {
+            timeMultiplier = 12;
+        }
+        else if (modifier.timeUnit === "weekly") {
+            timeMultiplier = 52;
+        }
+        else if (modifier.timeUnit === "daily") {
+            timeMultiplier = 365;
+        }
+        litersSum += (modifier.current - modifier.avg) * modifier.multiplier
+            * timeMultiplier;
+    }
+    return litersSum / 1e12;
+};
+
+const removeWaterModifier = function(name) {
+    delete window.waterModifiers[name];
+    reloadModifiers();
+};
+
+const reloadModifiers = function() {
+    let referencePopulation = window.countriesJson[window.countryName]
+        ["population"][16];
+    let consumption_datapoints = window.countriesJson[window.countryName]
+        ["population"].map(
+            (population) => population / referencePopulation
+                * window.countriesJson[window.countryName]
+                    ["total_water_consumption"]
+        );
+    modifiersSum = sumModifiers();
+    for (var i = 0; i < consumption_datapoints.length; i++) {
+        consumption_datapoints[i] = consumption_datapoints[i]
+            + window.countriesJson[window.countryName]["population"][i]
+              * modifiersSum;
+    }
+    window.graphData.data[0] = consumption_datapoints;
+    updateChart();
+};
+
+const applyWaterModifierWithName = function(value, name) {
+    let product = window.productsJson[name];
+    applyWaterModifier(name, product.avg, value, product.liters, product.time);
+};
+
+const applyWaterModifier = function(name, avg, current, multiplier, timeUnit) {
+    window.waterModifiers[name] = {avg, current, multiplier, timeUnit};
+    reloadModifiers();
+};
+
 const createNewElement = function () {
     const variableTypeSelect = document.querySelector('#variable-type');
     const variableType = variableTypeSelect
@@ -72,16 +127,28 @@ const createNewElement = function () {
 
     let clone = document.importNode(template.content, true);
     let title = clone.querySelector('#label');
-    title.textContent = variableType;
+    let outputLabel = clone.querySelector('output');
+    let slider = clone.querySelector('#sliderWithValue');
+    let product = window.productsJson[variableType];
+    slider.min = product.min;
+    slider.max = product.max;
+    slider.value = product.avg;
+    slider.title = variableType;
+    outputLabel.innerText = slider.value;
+    title.textContent = variableType + " " + product.unit + " ("
+        + product.time + ")";
 
     enableSlider(clone.querySelector('input'));
 
     container.appendChild(clone);
+    applyWaterModifier(variableType, product.avg, product.avg, product.liters,
+        product.time)
 };
 
 const closeElement = function () {
     const closeButton = event.srcElement;
     const parentWindow = closeButton.closest('.variable-container');
+    removeWaterModifier(parentWindow.querySelector("#sliderWithValue").title);
 
     parentWindow.remove();
 };
@@ -89,6 +156,7 @@ const closeElement = function () {
 const dataInit = function () {
     loadCountries();
     loadProducts();
+    window.waterModifiers = {}
 };
 
 window.graphData = {
