@@ -30,14 +30,11 @@
         <div class="navbar-item is-size-4 is-uppercase has-text-weight-bold">
             Death clock
         </div>
-        <a class="navbar-item" onclick="$('#detailView').fadeToggle()">
-            Hide details TODO REMOVE
-        </a>
     </div>
 </nav>
 
 <!-- Hero with questions -->
-<section class="hero is-dark is-fullheight-with-navbar">
+<section id="questionHero" class="hero is-dark is-fullheight-with-navbar">
     <div class="hero-body">
         <div class="container has-text-centered">
             <h1 class="title" id="questionTitle">
@@ -51,7 +48,7 @@
     </div>
 </section>
 
-<section id="detailView">
+<section id="detailView" style="display: none;">
     <!-- Graph section -->
     <section>
         <div class="container" id="chartContainer">

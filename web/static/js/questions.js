@@ -20,6 +20,18 @@ let questions = [
         max: 5,
         callback: dummySliderCallback
     },
+    {
+        title: 'If everyone were you, Afghanistan would be dead by 2084.',
+        type: 'text'
+    },
+    {
+        title: 'See how you can speed up the apocalypse.',
+        type: 'text'
+    },
+    {
+        title: '',
+        type: 'final'
+    }
 ];
 
 function nextQuestion() {
@@ -29,6 +41,7 @@ function nextQuestion() {
     }
 
     const question = questions[questionIndex];
+    questionIndex++;
 
     $('#questionTitle').text(question.title);
 
@@ -44,6 +57,12 @@ function nextQuestion() {
         case 'slider':
             templateType = 'slider-template';
             break;
+        case 'text':
+            return;
+        case 'final':
+            $('#questionHero').fadeOut();
+            $('#detailView').fadeIn();
+            return;
         default:
             console.error('Question type not handled!');
             return;
@@ -57,7 +76,6 @@ function nextQuestion() {
     }
 
     questionContent.append(clone);
-    questionIndex++;
 }
 
 window.addEventListener('load', nextQuestion, false);

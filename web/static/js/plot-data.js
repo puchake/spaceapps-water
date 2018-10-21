@@ -22,14 +22,13 @@ let config = {
         ]
     },
     options: {
-        legend: false,
         responsive: true,
         tooltips: {
             mode: 'index',
             callbacks: {
                 label: function (tooltipItem) {
                     // noinspection JSSuspiciousNameCombination
-                    return numberWithCommas(Math.round(tooltipItem.yLabel));
+                    return numberWithCommas(Math.round(tooltipItem.yLabel)) + " * 10⁹ m³ per year";
                 }
             }
         },
@@ -45,7 +44,7 @@ let config = {
                 display: true,
                 scaleLabel: {
                     display: true,
-                    labelString: 'Water [10^9 m^3 / year]'
+                    labelString: 'Water [10⁹ m³ / year]'
                 },
                 ticks: {
                     suggestedMin: 0,
